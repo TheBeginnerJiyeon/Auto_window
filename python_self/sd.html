@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input List Attribute Example</title>
+</head>
+<body>
+  <form>
+    <label for="browser">Choose a browser:</label>
+    <input type="text" id="browser" name="browser" list="browsers">
+    
+    <datalist id="browsers">
+      <option value="Chrome">
+      <option value="Firefox">
+      <option value="Safari">
+      <option value="Edge">
+      <option value="Opera">
+    </datalist>
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
