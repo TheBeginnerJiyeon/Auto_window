@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/site.css">
+    <!-- cdn 찾아보기. 링크로 제공하는.. 부트스트랩, 모달.. 툴팁.. mdn 튜토리얼, 공식 문서 정복하기 js 까지 책 다 끝내기-->
+    <!-- <style>
+        li {
+            list-style: none;
+            /* float 더 찾아볼 것 */
+            float: left;
+            padding: 15px;
+            width: 70px;
+            height: 20px;
+            border-radius: 50px;
+            text-align: center;
+    
+        }
+        
+        li:nth-child(2n) {
+            background: yellow;
+        }
+
+        li:nth-child(2n+1) {
+            background: orange;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        div{
+            font-size: 15px;
+            font-weight: bold;
+            color: blue;
+        }
+        /* 개발자 도구 확대도 ctrl + 로 가능 */
+        #top{
+            width: 80%; /* %, em이 부모 기준인지 찾아보기 */
+            height: 100px;
+            background: lime;
+            padding: 2px;
+        }
+
+        #top2{ /* #mdn 사이트 안전하다고 지정하기 >> 지정함 */
+            background-color: black;
+            background: yellow;
+            border-radius: 100px 10px;
+            width: 250px;
+            height: 100px;
+            /* sticky 찾아보기 */
+            position: fixed;
+            top: 5px;
+            right: 5px;
+        }
+
+        #total{
+            width: 800px;
+            height: 800px;
+            background-color: lightcyan;
+            text-align: center;
+          
+        }
+
+        #center{
+            padding: 30px;
+            width: 800px;
+            height: 500px;
+            /* # 더 찾아보기 왜 가로로는 중간이 아닌지 >> center 대상이 표가 아니라 div니까!!  div는 중간 정렬 된다. 그외 정렬 다 찾아보기 justify contetn 이런 것들. vertical align 등등 */
+            align-content: center;
+        }
+
+    </style> -->
+</head>
+
+<body>
+    <div id="total">
+        <div id="top">
+            <ul>
+                <li>            
+                    <a href="bootstrap_site.html"> Home</a>
+                </li>
+                <li>
+                    <a href="member.html">회원가입</a>
+                </li>
+                <li>
+                    <a href="product.html">제품정보</a>
+                </li>
+                <li>
+                    <a href="bbs.html">게시판</a>
+                </li>
+                <li>
+                    <a href="basket.html">장바구니</a>
+                </li>
+            </ul>
+        </div>
+        <div id="top2">장바구니에 담긴 물품수</div>
+        <div id="center">내용</div>
+    </div>
+</body>
+
+</html>
