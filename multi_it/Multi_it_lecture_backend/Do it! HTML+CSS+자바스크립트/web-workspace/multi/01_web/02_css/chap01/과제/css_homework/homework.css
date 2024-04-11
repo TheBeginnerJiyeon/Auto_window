@@ -1,7 +1,15 @@
+
+
 body {
     font-family: "Nanum Pen Script", cursive;
     font-weight: bold;
 }
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+} /* nav bar을 헤더에 넣고 z index를 올려줘서 스티키한 것이 보이게 만들었다. 강사님의 수정: <header><nav class="navbar navbar-expand bg-body-tertiary">........</header>  section 이 아니고 nav 는 header 로 들어가게 변경해주시면됩니다. 적용은되었는데 다른 이미지에 가려져서 z-index 올려주었습니다 */
 
 h1 {
     font-size: 50px;
@@ -66,10 +74,7 @@ hr {
     box-shadow: 5px 5px;
 }
 
-nav{
-    position: sticky;
-    top: 0;
-}
+
 
 input[type="text"],
 input[type="textarea"],
