@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        #red{
+            height: 10px;
+            background-color: red;
+        }
+
+        #blue{
+            height: 10px;
+            background-color: blue;
+        }
+
+        button{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <hr id="red">
+    <div>
+        구매상점: <input type="text" id="shop"><br>
+        결제금액: <input type="number" id="pay"><br>
+        입력수단 <span>(1)계좌이체,(2)신용카드,(3)휴대폰결제</span><br>
+        <br>
+        <input type="number" id="mean">
+        <br>
+        <button id="click1">결제버튼</button>
+        <div id="add"></div>
+    </div>
+
+    <hr id="blue">
+    <div id="text1"></div>
+
+    <script>
+        $(function () {
+
+
+            function pay_f() {
+                let shop = $('#shop').val();
+                let pay = parseInt($('#pay').val())
+                let mean = $('#mean').val();
+                let total
+                if (mean == "1") {
+                    total = pay
+                } else if (mean == "2") {
+                    total = pay + 1000
+                } else if (mean == "3") {
+                    total = pay + 500
+                }
+                $("#text1").html(shop + "에서 " + total + "원을 결제수단 " + mean + "번으로 결제했습니다.")
+
+            }
+
+
+
+            $('button').click(pay_f)
+
+        })
+
+    </script>
+</body>
+
+</html>

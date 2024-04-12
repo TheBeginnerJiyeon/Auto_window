@@ -1,0 +1,139 @@
+
+
+body {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: bold;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+} /* nav bar을 헤더에 넣고 z index를 올려줘서 스티키한 것이 보이게 만들었다. 강사님의 수정: <header><nav class="navbar navbar-expand bg-body-tertiary">........</header>  section 이 아니고 nav 는 header 로 들어가게 변경해주시면됩니다. 적용은되었는데 다른 이미지에 가려져서 z-index 올려주었습니다 */
+
+h1 {
+    font-size: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+
+}
+
+table {
+    
+    background: lightgreen;
+    font-weight: bold;
+}
+
+thead tr th,
+tfoot tr td{
+    text-align: center;
+    border-width: 1px;
+    border-color: black;
+    padding: 1rem;
+    
+}
+
+tbody tr td{
+    text-align: left;
+    border-width: 1px;
+    border-color: black;
+    padding: 2rem;
+    
+}
+
+.box{    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div > figure{
+
+    width: 40%;
+    padding: 1rem 0 1rem 1rem;
+
+
+}
+
+figcaption{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    
+}
+
+
+hr {
+
+    background-color: red;
+    height: 10px;
+    box-shadow: 5px 5px;
+}
+
+
+
+input[type="text"],
+input[type="textarea"],
+input[type="password"],
+input[type="number"],
+textarea{
+    background-color:aliceblue;
+}
+
+
+#yellow {
+    background: yellow;
+    
+}
+
+#green {
+
+    background-color: green;
+}
+
+#pink {
+    background: pink;
+}
+
+#purple {
+    background: purple;
+}
+
+#top{
+    display: block;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;  
+}
+
+#join{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.295);
+    font-weight: lighter;
+}
+
+a:hover {
+    text-decoration: double;
+    color: black;
+}
+
+
+@media(max-width:768px) {
+    section {
+        min-width: 600px;
+    }
+
+}
+  

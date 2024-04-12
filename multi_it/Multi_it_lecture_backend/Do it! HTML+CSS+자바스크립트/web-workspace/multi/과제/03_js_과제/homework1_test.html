@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        #img1{
+            width: 500px;
+            height: 500px;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>자바 스크립트 테스트</h1>
+    <hr>
+    아이디: <input type="text" id="id1"> <button id="check1">글자수 체크</button>
+    <br>
+    패스워드: <input type="text" id="pw1">
+    <br>
+    패스워드2: <input type="text" id="pw2"> <button id="check2">패스워드 동일</button>
+    <hr>
+    <div id="yellow"></div>
+    <div id="img1"></div>
+
+
+
+    <script>
+        $(function () {
+            let id_val = $("#id1").val();
+
+
+            $('#check1').click(function () {
+                if (id_val.length < 5) {
+                    $("#check1").css("background", "blue");
+                    $("#yellow").html('<font color=black>아이디 글자 수가 적절합니다.</font>')
+
+                } else {
+                    $("#yellow").css("background", "yellow");
+                    $("#yellow").html('<font color=black>아이디 글자 수가 5를 넘었습니다.</font>')
+                    console.log(id_val)
+                }
+
+
+            })
+
+            $(function () {
+                let pw_1 = $("#pw1").val();
+                let pw_2 = $("#pw2").val();
+
+                $("#check2").click(function () {
+                    pw_1 = $("#pw1").val();
+                    pw_2 = $("#pw2").val();
+
+                    if (pw_1 == pw_2) {
+                        $("#yellow").css("background", "yellow");
+                        $("#yellow").html('<font color=red>일치!!!!</font>')
+                        $("#img1").css("background", "url('img/red.png')");
+
+                    } else {
+                        $("#yellow").css("background", "yellow");
+                        $("#yellow").html('<b><font color=red>불일치!!!!</font><b>')
+                    }
+                })
+            })
+
+        })
+    </script>
+
+</body>
+
+</html>

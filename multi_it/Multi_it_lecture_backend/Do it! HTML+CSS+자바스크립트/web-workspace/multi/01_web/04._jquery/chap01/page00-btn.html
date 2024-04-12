@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> cdn을 사용한 방법-->
+    <script src="./jquery-3.7.1.min.js"></script> <!-- //파일을 아예받은 방법.compressed로 받아도 되고 비압축으로 받아도 된다 -->
+
+    <script>
+        $(function(){ // onload
+            /* alert("ok!") 에러 찾도록 순서대로 alert넣을 수도 있음 개발 동안엔 넣고 올릴 때 주석처리*/
+
+            $("#b1").click(function(){ 
+                alert("b1 clicked")})
+            $("#b2").click(function(){ 
+                alert("b2 clicked")})
+
+        })
+
+        /* jQuery(document).ready(function(){//준비되면 실행해!!
+
+            $("#b1").css("background","yellow")
+        }) 이 긴 부분을 다 $로 바꿨다.  이 onload 됐다 이거 하나만 열거나 여러개 열어도 됨 둘 다 오류는 안 남*/
+
+        $(function(){//준비되면 실행해!!
+
+            $("#b1").css("background","yellow")
+        }) 
+        $(function(){//준비되면 실행해!!
+
+            $("#b2").css("background","red")
+        }) 
+    </script>
+</head>
+<body>
+    <button id = "b1">버튼1</button>
+    <button id = "b2">버튼2</button>
+</body>
+</html>
