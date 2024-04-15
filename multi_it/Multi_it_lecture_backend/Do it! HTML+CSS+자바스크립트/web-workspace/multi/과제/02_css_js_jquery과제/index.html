@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
@@ -34,7 +35,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            <b>눌러보세요!</b>
+                            <span id="dropp"><b>눌러보세요!</b></span>
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="page_flower.html">Flower</a></li>
@@ -49,6 +50,22 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
+                            <li><a class="dropdown-item" href="./airline.html">Airline</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./blue_car.html">Add Reply</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./dynamic_tag.html">Product</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li style="z-index: 10;"><a class="dropdown-item" href="./map.html">Map</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
 
                         </ul>
                     </li>
@@ -58,13 +75,14 @@
             </div>
         </div>
     </nav></header>
-    <h1>Home</h1>
-
-
     <br>
-    <section>
+    <h1 style="font-size: 10em;">Home</h1>
+
+
+    <br><br>
+    <section style="z-index: 0;">
         <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
+            <div class="carousel-inner"">
                 <div class="carousel-item active">
                     <img src="img/food4.jpeg" class="d-block w-100" alt="음식4">
                 </div>
@@ -143,6 +161,19 @@
     </section>
 
     <br>
+
+    <script>
+        $(function() {
+            $("#dropp").click(function() {
+                if ($("#dropp").text()=="눌러보세요!"){
+                    $("#dropp").text("닫으세요~")
+                }else if ($("#dropp").text()=="닫으세요~"){
+                    $("#dropp").text("눌러보세요!")
+                }
+                
+            })
+        })
+    </script>
 
 </body>
 

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>여러개 마커 표시하기</title>
+    <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,6 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </head>
-
 
 <body>
 
@@ -79,90 +78,92 @@
         </nav>
     </header>
 
+    <h1><a href='https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Fairlinegeeks.com%2Ffeed%2F'>Go to the Rss
+            Website!!!</a><br></h1>
 
-    <section id="upperpart">
-    <br><br><br><br><br>
-        <h2 style="height: 10vh; text-align: center; font-size: 9vh;color: rgb(23, 185, 185);">오시는 길</h2>
+    <section style="display: flex;justify-content: center;">
         <br><br><br>
-
+        <img src="./img/air.jpg" alt="비행기" width="70%" height="50%">
+        <br><br><br><br><br><br>
     </section>
-    <section id="mapdomain">
 
-        <div id="map" style="width:80vw;height:70vh;margin: auto; z-index: -10;"></div>
 
-        <script type="text/javascript"
-            src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f8308f4a5dc5878dfd6e5fc5ecefdc3d"></script>
-        <script>
-            var mapContainer = document.getElementById('map'), // 지도를 표시할 div  
-                mapOption = {
-                    center: new kakao.maps.LatLng(37.367309, 127.107689), // 지도의 중심좌표
-                    level: 3 // 지도의 확대 레벨
-                };
+    <section style="display: flex;justify-content: center;">
+        <br><br>
+        <button id="b1" style="height: 5vh;width: 25vw;text-align: center;display: block;text-wrap:pretty;margin: 20px;"><span
+                style="font-size: 1rem;"><b>항공사 정보를 보려면 클릭!!</b></span></button>
+    </section>
 
-            var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+    <section>
+        <a id="top" href="#">Top</a>
+    </section>
 
-            // 마커를 표시할 위치와 title 객체 배열입니다 
-            var positions = [
-                {
-                    title: '탐탐카페',
-                    latlng: new kakao.maps.LatLng(37.365291, 127.107743)
-                },
-                {
-                    title: '스타벅스',
-                    latlng: new kakao.maps.LatLng(37.366866, 127.106727)
-                },
-                {
-                    title: '에릭스펍',
-                    latlng: new kakao.maps.LatLng(37.365447, 127.106431)
-                },
-                {
-                    title: '코이라멘지로',
-                    latlng: new kakao.maps.LatLng(37.367763, 127.107594)
+    <br>
+
+    <script>
+        $(function () {
+            $("#dropp").click(function () {
+                if ($("#dropp").text() == "눌러보세요!") {
+                    $("#dropp").text("닫으세요~")
+                } else if ($("#dropp").text() == "닫으세요~") {
+                    $("#dropp").text("눌러보세요!")
                 }
-            ];
 
-            // 마커 이미지의 이미지 주소입니다
-            var imageSrc = "./img/꽃1.jpg";
+            })
+        })
+    </script>
 
-            for (var i = 0; i < positions.length; i++) {
+    <script>
 
-                // 마커 이미지의 이미지 크기 입니다
-                var imageSize = new kakao.maps.Size(20, 20);
+        $(function () {
 
-                // 마커 이미지를 생성합니다    
-                var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize);
 
-                // 마커를 생성합니다
-                var marker = new kakao.maps.Marker({
-                    map: map, // 마커를 표시할 지도
-                    position: positions[i].latlng, // 마커를 표시할 위치
-                    title: positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
-                    image: markerImage // 마커 이미지 
-                });
-            }
-        </script>
-        <br><br><br>
-        <section>
-            <a id="top" href="#">Top</a>
-        </section>
+            $('#b1').click(function () {
 
-        <br>
+                $.ajax({
 
-        <script>
-            $(function () {
-                $("#dropp").click(function () {
-                    if ($("#dropp").text() == "눌러보세요!") {
-                        $("#dropp").text("닫으세요~")
-                    } else if ($("#dropp").text() == "닫으세요~") {
-                        $("#dropp").text("눌러보세요!")
+                    url: 'https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fairlinegeeks.com%2Ffeed%2F',
+
+                    data: {
+                        api_key: 'klw7kxsabnx0whukcm8amvqqa14izlkvl8spsdtc',
+                        count: 10
+                    },
+
+                    success: function (res) {
+                        /* console.log(res) */
+                        let items = res.items
+                        /* console.log(items) */
+                        let leng = Object.keys(items)
+                        /* console.log(leng) */
+                        /* for (let i = 0; i < leng.length; i++) {
+                            console.log(items[i])
+                        } */
+                        keys = Object.keys(items["0"])
+                        /* console.log(typeof(keys[2])) link 세번째 [2] string */
+
+
+                        for (let i = 0; i < leng.length; i++) {
+                            document.write("<a href='" + items[i][2] + "'>Go to the Website!!!</a><br>")
+
+                            for (let j = 0; j < keys.length; j++) {
+                                document.write(keys[j].toUpperCase() + " : " + items[i][keys[j]])
+                                document.write("<br><br>")
+                            }
+                            document.write("<br><br><br>")
+                        }
+                    }, error: function (xhr, status, error) {
+                        console.log(error)
+                        alert("에러 발생 ㅠㅠ" + error)
                     }
 
                 })
+
+
             })
-        </script>
 
-    </section>
+        })
 
+    </script>
 </body>
 
 </html>

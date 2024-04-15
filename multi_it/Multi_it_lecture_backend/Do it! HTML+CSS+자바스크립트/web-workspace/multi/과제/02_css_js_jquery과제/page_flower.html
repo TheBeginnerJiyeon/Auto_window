@@ -34,7 +34,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <b>눌러보세요!</b>
+                                <span id="dropp"><b>눌러보세요!</b></span>
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="page_flower.html">Flower</a></li>
@@ -46,6 +46,22 @@
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item" href="page06_hobby.html">Hobby</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./airline.html">Airline</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./blue_car.html">Add Reply</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./dynamic_tag.html">Product</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./map.html">Map</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -84,10 +100,23 @@
         </div>
 
     </section>
-    
+
     <section>
         <a id="top" href="#">Top</a>
     </section>
+
+    <script>
+        $(function () {
+            $("#dropp").click(function () {
+                if ($("#dropp").text() == "눌러보세요!") {
+                    $("#dropp").text("닫으세요~")
+                } else if ($("#dropp").text() == "닫으세요~") {
+                    $("#dropp").text("눌러보세요!")
+                }
+
+            })
+        })
+    </script>
 
 </body>
 
