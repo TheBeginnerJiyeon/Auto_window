@@ -1,0 +1,17 @@
+
+“
+java:S1192"PDefine a constant instead of duplicating this literal "car1.company: " 10 times.(½µ¸Ö8œÍ•±î1J$384e4664-7633-44e3-9e74-9e7f709cfc97
+m	java:S106"+Replace this use of System.out by a logger.(½µ¸Ö8†ç‘±î1J$de4ce319-4fc0-44e9-a15c-b9f0cfa346da
+r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¢²’±î1J$a39b8b40-d9b7-41f2-9ae3-8affcb834ac2
+m	java:S106"+Replace this use of System.out by a logger.(•´†ú8¤Í•±î1J$6db29a12-b18c-4753-a8ee-a892ae8efd0e
+r	java:S106"+Replace this use of System.out by a logger.(²§ß¤üÿÿÿÿ8¤Í•±î1J$8f466a69-1842-4cb1-978a-a117a57a70b2
+r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¤Í•±î1J$a9cfa56e-58ff-48c9-ae5b-84fe1da9eb46
+r	java:S106"+Replace this use of System.out by a logger.(†ò£şÿÿÿÿ8¤Í•±î1J$3b5d27c0-6a11-4477-920b-13fabc1f6f5f
+r	java:S106"+Replace this use of System.out by a logger.(Ù©µõøÿÿÿÿ8Æ–±î1J$c532d017-76fe-4c34-8588-1642be870951
+r	java:S106"+Replace this use of System.out by a logger.(¯ÎÔŸÿÿÿÿÿ8Ç–±î1J$2ee80a3e-8be9-43fc-af84-902cb40d10b5
+r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ôÚ™±î1J$8a800e13-18c6-440b-aed6-fd699100d923
+m	java:S106"+Replace this use of System.out by a logger.(¤ÔÊ8¶Íš±î1J$77b14cd3-cdc4-498f-8800-b40af2bfdfeb
+m	java:S106"+Replace this use of System.out by a logger.(ÑÚê8üÖŸ±î1J$a6824e07-6bf5-4db4-8a03-0c02bab4cbcd
+r	java:S106"+Replace this use of System.out by a logger.(º¼Š‚ıÿÿÿÿ8şÍ ±î1J$ca0dfdc6-9e77-47d4-bd8a-e828f25147f1
+r	java:S106"+Replace this use of System.out by a logger.(Û¾ÂÈÿÿÿÿÿ8şÍ ±î1J$7026f5cc-4570-4f71-92c3-dcbf1a5affeb
+r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8şÍ ±î1J$65c2b179-4b51-4c65-bb35-14ee089a5548
