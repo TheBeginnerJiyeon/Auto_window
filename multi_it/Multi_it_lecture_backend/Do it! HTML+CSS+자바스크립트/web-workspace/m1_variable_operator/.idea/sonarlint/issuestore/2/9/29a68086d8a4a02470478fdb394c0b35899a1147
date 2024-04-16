@@ -1,0 +1,16 @@
+
+ƒ
+java:S1854";Remove this useless assignment to local variable "COMPANY".(Şó—üÿÿÿÿ8¾ÛÊªî1J$c4a395ec-31e8-4d40-a522-6750aae072e1
+
+java:S1854	"7Remove this useless assignment to local variable "ssn".(¡ó•şÿÿÿÿ8¾ÛÊªî1J$93a6bfb7-1273-49e6-b662-dba56d33ed34
+|
+java:S1854"9Remove this useless assignment to local variable "myTel".(¡æ ¿8¾ÛÊªî1J$dd492e70-9dc6-4b99-8760-aad1e549f5db
+
+java:S1854"9Remove this useless assignment to local variable "myAge".(´œ÷øÿÿÿÿ8¾ÛÊªî1J$225476cd-7736-4ab0-9876-83f69824c1d0
+m
+java:S1481"*Remove this unused "myTel" local variable.(¡æ ¿8¿ÛÊªî1J$d62bedc6-0067-472f-bbaf-797a66426385
+p
+java:S1481	"(Remove this unused "ssn" local variable.(¡ó•şÿÿÿÿ8¿ÛÊªî1J$61399c56-54c0-4fef-abe4-0387c119d456
+m	java:S106"+Replace this use of System.out by a logger.(Ù¥Õğ8ÀÛÊªî1J$a71be08a-71d6-4ba4-9880-250669fc8b07
+t
+java:S1481",Remove this unused "COMPANY" local variable.(Şó—üÿÿÿÿ8ÀÛÊªî1J$f8b9044c-2ea1-432d-8be0-3264e5006268
