@@ -1,0 +1,28 @@
+
+…
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ôçŒí8–Ëé¿î1J$3658434f-2aef-4f55-b76d-a03c9b3a625d
+~
+java:S1854"6Remove this useless assignment to local variable "c1".(‚ì§Œúÿÿÿÿ8˜Ëé¿î1J$5df527df-da10-4a2e-b19b-325696b5a0d1
+y
+java:S1854"6Remove this useless assignment to local variable "b1".(»ˆÈæ8™Ëé¿î1J$1f33a4d4-69e5-4584-b019-99ecf681658d
+y
+java:S1854"6Remove this useless assignment to local variable "a4".(‡°íÀ8”ëê¿î1J$fee73cf3-d5e4-423c-bb45-0d1b4b764e98
+~
+java:S1854"6Remove this useless assignment to local variable "a3".(ÿ¡Óÿýÿÿÿÿ8ûóé¿î1J$394b31a7-62a0-4b87-998a-a025dffef530
+y
+java:S1854"6Remove this useless assignment to local variable "a2".(Þ˜µ÷8™Ëé¿î1J$0c4b542e-7916-4c92-9543-8c8ab435857e
+y
+java:S1854"6Remove this useless assignment to local variable "a1".(˜Æù÷8™Ëé¿î1J$aa378097-2651-41c3-a63d-0bbfe91c184b
+j
+java:S1481"'Remove this unused "a1" local variable.(˜Æù÷8™Ëé¿î1J$b001ce16-f38e-4ab9-9d3d-8f58d82cc777
+j
+java:S1481"'Remove this unused "a2" local variable.(Þ˜µ÷8™Ëé¿î1J$6a2b8585-012d-4145-b607-1ebcef6658c9
+o
+java:S1481"'Remove this unused "a3" local variable.(ÿ¡Óÿýÿÿÿÿ8™Ëé¿î1J$9d9fa55a-6d51-45c2-a1ad-2ef6ac6e80e3
+j
+java:S1481"'Remove this unused "a4" local variable.(‡°íÀ8šËé¿î1J$f8ec79e5-62ec-42fa-9594-6eb3abbf421f
+j
+java:S1481"'Remove this unused "b1" local variable.(»ˆÈæ8šËé¿î1J$19e6386e-b706-4ef3-bd0a-fa693787e173
+o
+java:S1481"'Remove this unused "c1" local variable.(‚ì§Œúÿÿÿÿ8–ëê¿î1J$5221d338-139a-42ac-9081-54529728307f
+]	java:S125"<This block of commented-out lines of code should be removed.(‡®Úéýÿÿÿÿ8‰õô¿î1

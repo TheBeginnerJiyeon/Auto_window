@@ -129,3 +129,9 @@ O
 practice/protected22/pack3.java,d\c\dc910317d2c726469263e6b8955ee7ee22124f79
 O
 practice/protected22/pack4.java,7\1\715fc5d3091a2dedd7ff14ea6b1aaabbb29ec29a
+T
+$practice/typeconversion21/pack4.java,0\b\0bda1a35117e4dc4e4e8f1ff9df5f8d9d9ca9adf
+T
+$practice/typeconversion21/pack3.java,b\6\b62c9242312ac1a2fa0da91b8b67c966c4ba5ea8
+_
+/practice/typeconversion21/PromotionExample.java,7\0\708c85f4fafb16f9c4e3a9434b6f416bf5ca9f0d

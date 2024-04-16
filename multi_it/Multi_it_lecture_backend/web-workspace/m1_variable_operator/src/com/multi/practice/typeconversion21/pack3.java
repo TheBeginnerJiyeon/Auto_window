@@ -1,4 +1,4 @@
-package com.multi.practice.protected22;
+package com.multi.practice.typeconversion21;
 
 public class pack3 {
 	public void method(){

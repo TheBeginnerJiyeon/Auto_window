@@ -1,4 +1,4 @@
-package com.multi.practice.protected22;
+package com.multi.practice.typeconversion21;
 
 import com.multi.practice.protected20.pack1;
 
