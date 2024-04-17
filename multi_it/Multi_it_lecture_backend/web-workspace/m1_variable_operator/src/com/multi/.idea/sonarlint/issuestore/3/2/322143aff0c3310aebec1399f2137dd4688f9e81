@@ -1,8 +1,0 @@
-
-¡
-java:S1488	"^Immediately return this expression instead of assigning it to the temporary variable "result".(ÄÚÆ‡8…ÿÁ³î1J$7b7517f8-69cb-40b8-b22c-1d841e60f384
-¦
-java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(óûÎÅüÿÿÿÿ8…ÿÁ³î1J$5d5955e8-2eae-4c82-8464-a5f7ff33c1f4
-m	java:S106"+Replace this use of System.out by a logger.(ßäûŞ8‹ÿÁ³î1J$dbda8e09-fb7b-4b00-aec5-ed59279741c7
-•	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰æ©¤ûÿÿÿÿ8‹ÿÁ³î1J$78983529-de40-4ea1-842b-b844c55295a6
-r	java:S106"+Replace this use of System.out by a logger.(¢Öäéıÿÿÿÿ8ŒÿÁ³î1J$2761472c-253c-4c09-af7f-19061068fef4

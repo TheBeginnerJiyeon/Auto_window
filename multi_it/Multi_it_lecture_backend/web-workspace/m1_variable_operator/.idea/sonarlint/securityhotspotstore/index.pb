@@ -21,8 +21,6 @@ T
 $src/com/multi/b_operator/Exec03.java,b\d\bdfd0caecefbaa4d970dec64f8e4b19acf697a57
 T
 $src/com/multi/b_operator/Exec04.java,7\f\7f682aa63d8708cb02cc8ccf523841e754d9ea48
-U
-%src/com/multi/homework/homework1.java,c\7\c7f6e3fb768f6c1056a3604e94a44fb7dcc7bdd6
 R
 "src/com/multi/homework/exam01.java,0\7\07cbf57c70ca295be7162ce96301ba02245bdda8
 R
@@ -31,3 +29,7 @@ R
 "src/com/multi/homework/exam03.java,3\f\3f772162d3ae40129990c2ffd8398fa1cf2e602b
 R
 "src/com/multi/homework/exam04.java,e\f\efac9f0b1b57af4ca751b683c47543241421b751
+T
+$src/com/multi/d_practice/Exec02.java,7\7\77b6bb3e5d9085de4b111504406a92768c6667e1
+T
+$src/com/multi/d_practice/Exec01.java,f\e\fe248f9b71843edd2d621457e7ff3dd816875469
