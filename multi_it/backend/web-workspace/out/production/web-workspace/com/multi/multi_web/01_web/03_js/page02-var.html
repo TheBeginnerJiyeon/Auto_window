@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //변수(저장공간의 이름)을 선언하고 값을 할당(assign 대입)한다
+        var name = '홍길동';
+        var age = 10;
+        age = 10; /* ;적어도 되고 안적어도 된다. 자바에서는 적어줘야 하지만  js는 한줄씩이라 안적어도 된다 */
+        var tel = '0101112222';
+        
+        var tel = '010111222222'; // var 재선언은 권장하지 않는다
+
+        console.log('내 전화번호는 ' + tel);
+
+        let phone = '1234';
+        /* let phone = '123423'; let은 재선언 불가!!! 에러 발생. 재할당은 가능하다 */
+        phone = '123445';
+
+        const PI = 3.14;
+        /* const PI = 12; */
+        PI = 14; /* const는 재선언, 재할당 전부 불가!! */
+        /* console.log(PI); page02-var.html:24 Uncaught TypeError: Assignment to constant variable. const에 재할당 하지 마세요!!에러발생 */
+        /* 개발자 도구 콘솔에서 함수 배열 치면 속성까지 다 볼 수 있다!! 상수(맨 위에 정의된다. java, js 둘 다 그럼)는 대문자, 변수/함수는 소문자 . 두단어 연결이면 camelCase로 적는다 */
+        
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

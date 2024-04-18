@@ -1,13 +1,0 @@
-
-Џ	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(№¬Шо8®„ХЭо1J$d522edfd-f0dc-4e0a-ac65-56dda89d5af6
-j
-java:S2189""Add an end condition to this loop.(п€ћяяяяя8і„ХЭо1J$eb62b363-8fb4-4f3c-918c-10cb6487cec1
-Ђ
-java:S1854"8Remove this useless assignment to local variable "num1".(±®їтьяяяя8ЈСХЭо1J$d450e25c-fc16-4d63-9eed-14cccec4cfbd
-q
-java:S1481")Remove this unused "num1" local variable.(ГНьЁъяяяя8§СХЭо1J$d03c66a3-f33b-4f66-bd47-cf6cc33635a7
-K
-java:S1481	")Remove this unused "num2" local variable.(Іпмяэяяяя8љсЦЭо1
-r	java:S106"+Replace this use of System.out by a logger.(ьЩс«ъяяяя8¶„ХЭо1J$b911171e-8acc-42d2-9ca2-c484ffff0660
-K
-java:S1481")Remove this unused "num1" local variable.(±®їтьяяяя8њсЦЭо1

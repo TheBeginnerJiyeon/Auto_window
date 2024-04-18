@@ -1,8 +1,0 @@
-
-~
-java:S1854"6Remove this useless assignment to local variable "n6".(Ë€Â¥şÿÿÿÿ8â†«¬î1J$1e0097b9-eee9-4b09-985f-f30b60933cf3
-r	java:S106"+Replace this use of System.out by a logger.(Ó·÷ÿùÿÿÿÿ8å†«¬î1J$302786a3-b595-4a49-8513-a3cb5e345743
-r	java:S106"+Replace this use of System.out by a logger.(ƒ» ûÿÿÿÿ8å†«¬î1J$1419213d-8a83-47cc-98a7-eb2c48888df1
-m	java:S106"+Replace this use of System.out by a logger.(ä±Èæ8µò´¬î1J$ab0022ff-5ba6-445d-9cd8-b57ef2d28ba9
-o
-java:S1481"'Remove this unused "n6" local variable.(Ë€Â¥şÿÿÿÿ8¾Ó«¬î1J$8317fffc-e008-4b20-b98c-7cff683a3cae

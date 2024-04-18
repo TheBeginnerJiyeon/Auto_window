@@ -1,9 +1,0 @@
-
-ê
-java:S1845""MRename method "lose" to prevent any misunderstanding/clash with field "lose".(≠⁄◊‰8ë‡ø›Ó1J$83f8b4f6-372f-4fed-a148-51caf858bf1c
-ï
-java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(«µÌë8∆Œ®›Ó1J$5f41264e-c6f2-478c-87ad-18679f6a6146
-^
-java:S3626?"Remove this redundant jump.(…ä©É8«Œ®›Ó1J$d3e0b2b0-ea5c-4846-9aee-63489daebefa
-l
-java:S2140/")Use "java.util.Random.nextInt()" instead.(ÃﬂÎÔ8»Œ®›Ó1J$7467ad2e-8641-4b98-a4f7-b04e980cfcc8

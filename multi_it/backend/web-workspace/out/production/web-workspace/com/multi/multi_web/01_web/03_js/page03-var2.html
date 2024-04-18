@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       x = 5; //전역변수
+       y = 5; 
+       sum = 1;
+
+       if(x==y){ //조건문
+        total = 100; /* 마찬가지로 전역변수다 */
+        var sum = 200;
+        let x = 100;
+        let x2=400;
+
+        alert('total: ' + total); //100
+        alert(' sum: ' + sum); //200
+        alert('x: ' + x); //100        
+       }
+       alert('total: ' + total); //100
+        alert('sum: ' + sum); //200 
+        alert('x: ' + x); // 100 지역변수는 영향을 못미친다
+        alert('x2: ' + x2); // page02-var2.html:25 Uncaught ReferenceError: x2 is not defined 지역변수다
+       
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

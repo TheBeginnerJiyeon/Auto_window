@@ -1,0 +1,86 @@
+div{
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+
+}
+
+#total{
+    width: 100%;
+    background-color: lightcyan;
+    text-align: center;
+
+    /* margin 0 auto 찾아보기  위 아래, 왼 오*/
+    margin: 0 auto;
+
+}
+
+#total table{
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+    float: left;
+    padding: 15px;
+    width: 70px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+#top{
+    height: 100px;
+    background-color: aquamarine;
+    padding: 2px;
+    /* display, justify content등 다 정리하기 */
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#top2 {
+    background-color: black;
+    color: yellow;
+    border-radius: 100px 10px;
+    width: 250px;
+    height: 100px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    align-items: center; /* 수직방향 */ 
+    justify-content: center; /* 수평방향. 위에랑 2개 다 찾아보기 */
+}
+
+li:nth-child(2n){
+    background-color: orange;
+}
+
+li:nth-child(2n+1){
+    background-color: yellow;
+}
+
+@media(max-width:768px){
+    #total{
+        min-width:600px;
+    }
+
+    #top, #center{
+        display: flex;
+        justify-content: left; /* 적용 안되는 이유 확인 >> 컴퓨터가 너무커서 ㅋㅋ 크기를 보면서 줄이기 */
+    }
+
+    #top2{
+        /* 여기 찾아보기 */
+        background-color: transparent;
+        color: black;
+        border-radius: 100px 10px;
+        position: fixed; /* 위아래로만 픽스되어ㅣ있는지 찾아보기 */
+        top:50px;
+        right: 50px;
+        z-index: -1;
+        /* 또는 z-index로 밑으로 높이를 내리기 */
+
+    }
+}

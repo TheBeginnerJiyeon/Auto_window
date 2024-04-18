@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text]{
+            background: red;
+            color: white;
+            font-size: 30px;
+            
+        }
+        input[type=password]{
+            background: green;
+            color: blue;
+            font-size: 30px;
+        }
+        img[src$=png]{
+            border: 10px solid red;
+        }
+        /* 왜 .찍으면 안되는지 찾아보기 >> "" 안에 넣으면 가능하다!! */
+        img[src$=".gif"]{
+            border: 10px dotted yellow;
+        }
+        img[src$=jpeg]{
+            border: 10px dashed blue;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <input type="text" name="user">
+    <input type="password" name="pw">
+    <hr>
+
+    <img src="/02_css/chap01/img/sing.png" alt="">
+    <img src="/02_css/chap01/img/giphy.gif" alt="">
+    <img src="/02_css/chap01/img/red.jpeg" alt="">
+
+</body>
+
+</html>

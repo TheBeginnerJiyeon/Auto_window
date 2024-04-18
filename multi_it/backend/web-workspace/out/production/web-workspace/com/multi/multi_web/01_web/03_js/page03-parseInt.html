@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age = prompt('나이를 입력해주세요');/* 모든 입력은 문자로 취급. 숫자로 연산 불가! */
+        //js는 오류 방지를 위해 숫자로 방지하는 함수 적용 // 13
+        console.log(age+10); //1310
+
+        let age2=parseInt(age) // 정수로 변환 //문자 넣으면 NaN: not a number
+        let age3 = age2 + 1; //14
+        let age4 = age3 + 2; //16
+        console.log('내년 나이는?' + age3);
+        console.log('후내년 나이는?' + age4);
+    </script>
+</body>
+</html>

@@ -1,13 +1,0 @@
-
-y
-java:S1854
-"6Remove this useless assignment to local variable "n1".(é¹°Ä8ÛÜ­î1J$f20881cc-c734-4936-8d9c-836db9b2c5df
-j
-java:S1481
-"'Remove this unused "n1" local variable.(é¹°Ä8ŸÛÜ­î1J$1760a4de-9f36-4add-be3b-92e35a816a49
-~	java:S125"<This block of commented-out lines of code should be removed.(ÃöŒ¡8 ÛÜ­î1J$0ce12959-c020-4448-b51f-2251e1c46497
-~	java:S125"<This block of commented-out lines of code should be removed.(Ã£š8 ÛÜ­î1J$487cf310-4671-4f66-9e30-04d98abcfa89
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(•Ü°üÿÿÿÿ8 ÛÜ­î1J$be82f412-6f43-4441-bf6c-cd3c03aa15fb
-r	java:S106"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8 ÛÜ­î1J$dcd072eb-b786-4747-9ceb-9e3b023fd0b1
-r	java:S106&"+Replace this use of System.out by a logger.(ñİ³ûÿÿÿÿ8¡ÛÜ­î1J$440ec2b0-bfe5-4724-8c1e-fd9165c283f3
-m	java:S1060"+Replace this use of System.out by a logger.(á¯˜Ğ8¢ÛÜ­î1J$1e7aeffa-351a-4106-b596-75b1ab9c4892

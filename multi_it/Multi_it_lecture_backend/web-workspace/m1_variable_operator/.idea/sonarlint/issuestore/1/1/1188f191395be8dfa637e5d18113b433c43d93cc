@@ -1,44 +1,0 @@
-
-Г
-java:S1854=";Remove this useless assignment to local variable "height3".(╜╖ищ№    8б■плю1J$fc4d7be5-5f64-4547-9c2c-a9ae90944f08
-Б
-java:S18547"9Remove this useless assignment to local variable "space".(ль╖Э∙    8б■плю1J$479ed59b-01eb-45b0-96bf-2d13995e4def
-|
-java:S18546"9Remove this useless assignment to local variable "money".(шуйы8б■плю1J$20ad06ab-3c0f-4b3b-9525-c4cfbd7d5008
-В
-java:S18545":Remove this useless assignment to local variable "wallet".(кФсь     8б■плю1J$a35423f8-7c4a-4657-b894-533fda29d96d
-~
-java:S1854"6Remove this useless assignment to local variable "a1".(├ЎМж№    8б■плю1J$61d1eb9e-67d7-4322-a964-8f12030f1019
-}
-java:S1854"5Remove this useless assignment to local variable "a".(╤╝пю№    8б■плю1J$67509626-d7d3-46d4-96cb-a6f269a4786b
-}
-java:S1854":Remove this useless assignment to local variable "gender".(·Т└╡8б■плю1J$d0238689-9aa3-4ab4-aa8b-ee2c49e2a26a
-В
-java:S1854":Remove this useless assignment to local variable "height".(╤Ж─А∙    8б■плю1J$3ef8898d-6a86-4a38-a09d-a45cf9d621b3
-s
-java:S1481"+Remove this unused "height" local variable.(╤Ж─А∙    8в■плю1J$a125c1d5-e588-486b-9227-c35de1b0ac12
-n
-java:S1481"+Remove this unused "gender" local variable.(·Т└╡8в■плю1J$2f68894b-b0a1-409c-b5ec-bb87a997ae89
-l
-java:S1481")Remove this unused "food" local variable.(я╧д╝8в■плю1J$50392276-4b5c-43f0-bdaf-9a5dee44fe67
-m	java:S106"+Replace this use of System.out by a logger.(Тщ╗с8в■плю1J$baa47abb-3916-492d-a38b-a811baafebaf
-n
-java:S1481"&Remove this unused "a" local variable.(═ч╧╟■    8в■плю1J$231e8dca-801a-433e-a848-676bbf7de8d1
-o
-java:S1481"'Remove this unused "a1" local variable.(├ЎМж№    8г■плю1J$94b2dd46-e6fa-4bd8-a056-49bb15bbfd75
-s
-java:S14815"+Remove this unused "wallet" local variable.(кФсь     8г■плю1J$6bf7dd80-62ff-4152-a83f-d2e608dc4753
-m
-java:S14816"*Remove this unused "money" local variable.(шуйы8г■плю1J$9de6c49f-ecaf-4432-b138-0a40bc20d1b8
-r
-java:S14817"*Remove this unused "space" local variable.(ль╖Э∙    8г■плю1J$671fe2a5-2fcd-46b5-ae3c-9790cdbd8b0a
-r	java:S1069"+Replace this use of System.out by a logger.(╝√Эх     8г■плю1J$140f278a-929d-4d12-8b4a-97c59d01769a
-t
-java:S1481=",Remove this unused "height3" local variable.(╜╖ищ№    8г■плю1J$77e00429-ea11-4909-8c1e-24305c4bb2f2
-m	java:S106?"+Replace this use of System.out by a logger.(дяПМ8г■плю1J$dff86246-6382-47d2-969f-75103c17a7ba
-m	java:S106B"+Replace this use of System.out by a logger.(бюР¤8г■плю1J$66477f8b-b11f-4fbd-9403-97cb79ca28ad
-m	java:S106F"+Replace this use of System.out by a logger.(┘Л ∙8г■плю1J$e08f2dce-5e6d-4b6d-aa86-8647b32b871f
-q
-java:S1481I")Remove this unused "age3" local variable.(Ж╞л─■    8г■плю1J$0ad9ac6b-6c56-4ca4-9663-188eed914385
-p
-java:S1481L"(Remove this unused "day" local variable.(■Й╝╙·    8г■плю1J$809e7480-98b1-4c66-9413-90d48da53efc

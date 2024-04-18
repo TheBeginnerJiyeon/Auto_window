@@ -1,8 +1,0 @@
-
-
-java:S4973"<Strings and Boxed types should be compared using "equals()".(‰¸¨ñ8­ Òî1J$be1287e8-cb09-4f51-82bc-db4f371642e2
-m	java:S106
-"+Replace this use of System.out by a logger.(ƒùµ²8· Òî1J$5ba6d72e-da75-4f4c-8600-2fdc84f65681
-r	java:S106"+Replace this use of System.out by a logger.(À§Íœùÿÿÿÿ8¸ Òî1J$114960f9-408d-481d-996a-180882ee8522
-m	java:S106"+Replace this use of System.out by a logger.(Ù¦áŞ8¸ Òî1J$2833702b-f861-4c7b-b5eb-7caeaef96858
-m	java:S106"+Replace this use of System.out by a logger.(æØ¾ª8º˜¡Òî1J$ae2cb7bf-4ccc-4e2d-8551-f66a1e4e8a00

@@ -1,9 +1,0 @@
-
-ƒ
-java:S2184"@Cast one of the operands of this integer division to a "double".(Ê»Á—8ÇŸø­î1J$e97503f2-070b-4c82-9adf-1788280f4ba4
-r	java:S106"+Replace this use of System.out by a logger.(å†ð›øÿÿÿÿ8ÌŸø­î1J$e39ec1cb-ced9-4c06-9a7c-595c758c317a
-m	java:S106"+Replace this use of System.out by a logger.(ºÍˆÎ8ÌŸø­î1J$927692e6-54a5-46a3-b956-5203b01582ec
-m	java:S106"+Replace this use of System.out by a logger.(ñ¢½û8ÌŸø­î1J$341396ba-53af-43b3-99e3-a8665ad134df
-l
-java:S1905")Remove this unnecessary cast to "double".(Ê»Á—8ÎŸø­î1J$18accf4f-6115-4006-add0-2d13e72cfa5f
-r	java:S106"+Replace this use of System.out by a logger.(Ôî¢¤ýÿÿÿÿ8ÎŸø­î1J$1d143a95-b32d-4546-9af3-fafb4687220b

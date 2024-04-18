@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+
+        $(function () {
+            $('#b1').click(function () {
+
+                $.ajax({
+
+                    url: 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.hankyung.com%2Ffeed%2Fit&api_key=klw7kxsabnx0whukcm8amvqqa14izlkvl8spsdtc&count=20',
+
+                    /* data:{
+                        api_key:~~
+                        count:20
+                    }, 이거는 사이트에서 자동이나 변경 지정 */
+
+                    success: function (res) { //void: 반환이 없다
+                        console.log(res)
+                        let list = res.items  //.items 또는 키 값으로 res[items]
+                        console.log(list)
+                        console.log('기사수' + list.length)
+
+                        $(list).each(function (index, news) {
+                            console.log(index)
+                            console.log(news.title)
+                            console.log(news.link)
+                            console.log(news.pubDate)
+
+                            let title=news.title
+                            let link=news.link
+                            
+                            a= "<a href=" + link + ">" + title + "</a><br>"
+                            $("#d1").append(a)
+
+
+                        })
+                    }
+
+
+
+                })
+
+
+            })
+
+        })
+
+    </script>
+</head>
+
+<body>
+    <button id="b1">한경it 비동기통신</button>
+    <hr>
+    <div id="d1"></div>
+
+</body>
+
+</html>

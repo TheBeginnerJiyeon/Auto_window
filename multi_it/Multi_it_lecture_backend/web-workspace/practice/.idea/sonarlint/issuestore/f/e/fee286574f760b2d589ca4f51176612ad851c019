@@ -1,17 +1,0 @@
-
-¼
-java:S1598"øThis file "InstanceOfExample.java" should be located in "com\multi\practice\instanceofExample" directory, not in "C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\Multi_it_lecture_backend\web-workspace\practice\instanceofExample".(¼ƒ8îäÄùî1J$eb451344-00b6-4776-9791-9b4cb238aa79
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼ƒ8îäÄùî1J$876aaf2e-7af1-480f-bcee-c11d75438697
-{
-java:S1854"9Remove this useless assignment to local variable "child".(ØÙ~8òäÄùî1J$ec2a5ce6-7964-412e-b7d1-a673c4ba44b0
-Œ
-java:S6201"DReplace this instanceof check and cast with 'instanceof Child child'(±ƒ—Ïıÿÿÿÿ8ã‰äùî1J$de6892c7-385c-429f-95a7-f381cdf0ebff
-l
-java:S1481"*Remove this unused "child" local variable.(ØÙ~8òäÄùî1J$e0f299b5-84ef-4ab6-b435-ad2936192374
-r	java:S106"+Replace this use of System.out by a logger.(¶®Øüÿÿÿÿ8óäÄùî1J$2e46800e-3848-457d-b9f4-7a1339913b87
-m	java:S106"+Replace this use of System.out by a logger.(ÈáÍ¥8óäÄùî1J$919f0b1e-4ba1-459b-ac89-af128cd5c3f1
-{
-java:S1854"9Remove this useless assignment to local variable "child".(ØÙ~8óäÄùî1J$73f36f44-3aa0-4aba-95ab-cad9672d3f3d
-l
-java:S1481"*Remove this unused "child" local variable.(ØÙ~8ôäÄùî1J$62520cbb-eb0d-4f54-8672-9bdabe99c449
-m	java:S106"+Replace this use of System.out by a logger.(ï¸¿“8ôäÄùî1J$5c2b1d93-7c63-4050-914a-7aa5d3d96494

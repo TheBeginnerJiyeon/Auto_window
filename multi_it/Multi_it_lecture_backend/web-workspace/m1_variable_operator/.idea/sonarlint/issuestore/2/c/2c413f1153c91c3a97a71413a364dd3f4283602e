@@ -1,15 +1,0 @@
-
-”
-java:S1192"QDefine a constant instead of duplicating this literal "ì•ˆë…•í•˜ì„¸ìš”" 11 times.(¼Ñƒò8ßÐ¸¨î1J$5020bd80-7db3-4351-9d26-a04025cd1932
-m	java:S106"+Replace this use of System.out by a logger.(¼Ñƒò8õŒä§î1J$fdc213d3-57c6-4eec-9c0e-2f6989d8884f
-m	java:S106"+Replace this use of System.out by a logger.(¼Ñƒò8è»Ã¨î1J$20eec8f7-987d-4228-b1f0-7f165c5815a5
-m	java:S106"+Replace this use of System.out by a logger.(¼Ñƒò8è»Ã¨î1J$89cc3c1e-ad46-4b32-b8b0-3a03fbc1c1c3
-m	java:S106	"+Replace this use of System.out by a logger.(¼Ñƒò8è»Ã¨î1J$90bef9e1-975a-45b4-a9b5-bb05aae4275c
-m	java:S106
-"+Replace this use of System.out by a logger.(¼Ñƒò8è»Ã¨î1J$c4389acf-e3c8-400a-9f04-e53ee5cf1eb2
-m	java:S106"+Replace this use of System.out by a logger.(¼Ñƒò8è»Ã¨î1J$625b29c0-a6c9-4a10-80d5-e8996fbfc646
-m	java:S106"+Replace this use of System.out by a logger.(¼Ñƒò8ŠØÃ¨î1J$e5b24b8d-27f9-41cf-9be3-3a30dd64a567
-m	java:S106"+Replace this use of System.out by a logger.(¼Ñƒò8ŠØÃ¨î1J$67fead37-a711-438d-bf3c-6d2ffc20d25b
-m	java:S106"+Replace this use of System.out by a logger.(¼Ñƒò8ŠØÃ¨î1J$78e3eace-1f0b-498a-b88d-fa2e28a27d83
-m	java:S106"+Replace this use of System.out by a logger.(¼Ñƒò8ŠØÃ¨î1J$3b0e3393-4f2c-4d12-ad5d-51ad23759566
-m	java:S106"+Replace this use of System.out by a logger.(¼Ñƒò8ŠØÃ¨î1J$8b03b09a-92fb-4690-9899-12dcc56cb4bd
