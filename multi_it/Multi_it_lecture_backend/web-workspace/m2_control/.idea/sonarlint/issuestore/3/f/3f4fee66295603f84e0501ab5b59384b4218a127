@@ -1,0 +1,19 @@
+
+
+java:S1192"SDefine a constant instead of duplicating this literal "á„€á…®á†¯á„…á…µá†·" 7 times.(«ö³ÔJ$98e56396-5a42-4ffe-bd37-cc4de9011f5e
+š	java:S135”"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿJ$ba5fe051-e671-43cd-aab4-bd27b927321d
+”	java:S135o"YReduce the total number of break and continue statements in this loop to use at most one.(ä¸ÛJ$e68ba2ef-69d0-4525-82ee-99f54499069f
+²
+java:S1598"õThis file "Homework5.java" should be located in "com\multi\homework2" directory, not in "C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\Multi_it_lecture_backend\web-workspace\m2_control\src\com\multi\20240418_java_ì•ˆì§€ì—°".(¢¬ÌJ$74041b70-5792-4b6f-a777-29bd0cf72244
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Çµí‘J$4caa2144-32f5-4c2f-8b49-58124658033d
+Š
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ƒ¼–÷úÿÿÿÿJ$104461bd-af9e-498a-ae82-f3e9f31fffbd
+s
+java:S6126q"2Replace this String concatenation with Text block.(şñÈêûÿÿÿÿJ$32faeda3-f77b-4d8f-b640-d274c024ee6b
+l	java:S106†"+Replace this use of System.out by a logger.(ŠñÉ±ûÿÿÿÿJ$0435036d-3cf6-4698-9708-d5e2c0b05eca
+g	java:S106‹"+Replace this use of System.out by a logger.(Ğû†ÓJ$355501d8-598e-4e23-ade3-27c63c454c61
+g	java:S106"+Replace this use of System.out by a logger.(Ñ”šJ$2d7a6bc0-524d-4565-a5c6-8f20f013442f
+g	java:S106"+Replace this use of System.out by a logger.(¦ĞÆÓJ$7073115a-6d69-482b-9348-ec49813037cf
+g	java:S106‘"+Replace this use of System.out by a logger.(™œîõJ$cdda9c71-6e99-4f56-9d93-3f60eb826846
+g	java:S106­"+Replace this use of System.out by a logger.(š„›óJ$5e551590-8391-4933-a5c2-ccadd43c18ec

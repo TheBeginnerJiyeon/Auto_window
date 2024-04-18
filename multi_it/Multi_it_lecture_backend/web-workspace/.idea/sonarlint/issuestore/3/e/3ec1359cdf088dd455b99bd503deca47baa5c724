@@ -1,0 +1,17 @@
+
+f
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(çÌùãÿÿÿÿÿ
+J
+java:S1874"/Remove this use of "getYear"; it is deprecated.(ÉšßÜıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÜÚÊ
+E	java:S106"+Replace this use of System.out by a logger.(‚·¦¦ÿÿÿÿÿ
+I
+java:S1874".Remove this use of "getDay"; it is deprecated.(–É¼€ıÿÿÿÿ
+f	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(ÑùÅŸûÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(ü®ºD
+E	java:S106"+Replace this use of System.out by a logger.(ö½¶ùÿÿÿÿ
+F
+java:S1874#"0Remove this use of "getMonth"; it is deprecated.(å¤æ¤
+E	java:S106)"+Replace this use of System.out by a logger.(ôÒ—ğıÿÿÿÿ
+@	java:S106-"+Replace this use of System.out by a logger.(Ì¸¢ß
+E	java:S1061"+Replace this use of System.out by a logger.(ÄÆ™œüÿÿÿÿ

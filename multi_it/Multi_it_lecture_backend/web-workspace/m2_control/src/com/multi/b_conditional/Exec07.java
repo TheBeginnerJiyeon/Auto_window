@@ -5,7 +5,10 @@ import javax.swing.*;
 public class Exec07 {
 	public static void main(String[] args) {
 		
-		int target = 10;
+		//1~100
+		int target = (int) (Math.random() * 100 + 1);
+		// 이전 코드 int random=7;
+		System.out.println(target);
 		int no = 0;
 		int count = 0;
 		

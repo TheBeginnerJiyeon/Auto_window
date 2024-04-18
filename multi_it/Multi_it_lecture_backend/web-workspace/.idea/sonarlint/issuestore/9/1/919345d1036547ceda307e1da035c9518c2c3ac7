@@ -1,0 +1,23 @@
+
+~
+java:S1854"6Remove this useless assignment to local variable "y3".(Œ•á—şÿÿÿÿ8Ò†¤şî1J$4a0d0366-034c-4f65-971f-3eedeb22ef48
+y
+java:S1854"6Remove this useless assignment to local variable "y2".(¥Â€Ş8Ò†¤şî1J$080debe4-de16-40d2-917b-4e9abd8c6cd5
+x
+java:S1854"5Remove this useless assignment to local variable "y".(›‰—8Ò†¤şî1J$d54efc39-2eff-4ff5-b923-7e77ed5efd2b
+x
+java:S1854"5Remove this useless assignment to local variable "b".(şüøğ8Ò†¤şî1J$ac8f0dc4-b0b7-4f51-a3f7-595fa579c4fd
+}
+java:S1854	"5Remove this useless assignment to local variable "a".(²ìÅİøÿÿÿÿ8Ó†¤şî1J$d11365f6-758b-4a95-a953-b44099707851
+x
+java:S1854"5Remove this useless assignment to local variable "a".(ş¤«—8Ó†¤şî1J$0ab0e25b-1ae4-400b-9283-17832f9e329e
+i
+java:S1481"&Remove this unused "a" local variable.(ş¤«—8Ô†¤şî1J$1979f8a5-f0db-4cb7-b4b7-499dda8d164a
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ëÀé­ÿÿÿÿÿ8Ô†¤şî1J$e2e6aa03-088b-48a6-bb45-a1e651ee8ed1
+i
+java:S1481"&Remove this unused "y" local variable.(›‰—8Ô†¤şî1J$2e90ce39-37e0-4761-9b76-b1066896dd67
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(¦ëø‚şÿÿÿÿ8Õ†¤şî1J$a82e00c8-57de-4da2-9d15-10c52dc28c93
+j
+java:S1481"'Remove this unused "y2" local variable.(¥Â€Ş8Õ†¤şî1J$ef71ffba-a9af-4c95-839c-d2b66eeea425
+o
+java:S1481"'Remove this unused "y3" local variable.(Œ•á—şÿÿÿÿ8Õ†¤şî1J$601e0d10-d4a9-4d3e-b02c-ff34c1ecd68a

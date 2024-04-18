@@ -25,3 +25,13 @@ H
 parentchild24/Child.java,1\c\1c35d7d1e6ad091434aa5f07acdf8f7e614fb0a0
 O
 parentchild24/ChildExample.java,3\6\360a3a55f3b7d15bbf0fc58f0401c15853e75c86
+L
+instanceofExample/Child.java,0\b\0b2e17148cc73f05c439b3d098d3cb110059edfb
+N
+instanceofExample/Parents.java,3\7\37d978d543fc3f2780249a07b5bfd523c222adbe
+M
+instanceofExample/Parent.java,0\b\0b53262a5a320bcef3ee1080b2aea79f00aee81b
+S
+#instanceofExample/ChildExample.java,6\c\6cb0255ecf35c83b71ab5bd87bc4fe5a5ab46838
+X
+(instanceofExample/InstanceOfExample.java,f\e\fee286574f760b2d589ca4f51176612ad851c019

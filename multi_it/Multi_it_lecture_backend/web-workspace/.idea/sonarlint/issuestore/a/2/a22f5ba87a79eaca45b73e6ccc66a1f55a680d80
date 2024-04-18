@@ -1,0 +1,13 @@
+
+’	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÜ±+8óÃµøî1J$a3dc5fa5-55a7-4ce4-9b11-6550c02498ad
+z
+java:S2589"7Remove this expression which always evaluates to "true"(ÇŸ¼À8†°¶øî1J$12293ccb-b5b3-41ed-ac0e-d609536765d2
+q
+java:S2140	")Use "java.util.Random.nextInt()" instead.(ùàŞûÿÿÿÿ8âŸ¸øî1J$238c3c46-ad44-41cb-b3ea-177cf6bc5451
+m	java:S106"+Replace this use of System.out by a logger.(‚İ‹™8øÃµøî1J$43eae623-d171-48ba-9fab-187b38f9bb24
+~	java:S125
+"<This block of commented-out lines of code should be removed.(ÓÒª8„éÑøî1J$f115e903-9504-47db-8b8f-78e3058197d0
+m	java:S106"+Replace this use of System.out by a logger.(…ˆƒÅ8øÃµøî1J$a1246e79-1bed-417f-bdf2-c35104a7a2b8
+m	java:S106"+Replace this use of System.out by a logger.(ëô®é8øÃµøî1J$5cea2fad-ee6d-4a88-9744-1a06bb070011
+m	java:S106"+Replace this use of System.out by a logger.(Ñ¨ªÎ8øÃµøî1J$345ddf7e-02c9-4054-a196-3cb283abe2f3
+r	java:S106!"+Replace this use of System.out by a logger.(—‹£šÿÿÿÿÿ8©ô»øî1J$30292ddc-364d-4be2-bb79-a0b0e1820104

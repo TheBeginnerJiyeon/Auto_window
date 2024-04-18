@@ -102,9 +102,26 @@ public class Exec01 {
 			if (i % 3 == 0) {
 				break; // 1,2
 			}
-			System.out.print(i);
+			System.out.print(i+",");
 			
 		}
+		
+		System.out.println("\n");
+		
+		int sum3=0;
+		for (int i = 1; i <= 1000; i++) {
+			if(sum3>100){
+				break; // break를 포함하는 블록을 종료
+			} else if (i%5==0) {
+				continue; // skip의 의미. 아래 로직 수행 안하고 증감식으로 넘어감.
+			}
+			sum3+=i;
+			
+		}
+		System.out.println(sum3);
+		
+		
+		
 		
 		
 		

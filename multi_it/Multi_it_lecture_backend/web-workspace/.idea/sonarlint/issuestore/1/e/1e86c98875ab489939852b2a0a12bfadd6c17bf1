@@ -1,0 +1,17 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(şÇøîøÿÿÿÿ8‡›øî1J$93a1ead0-ff14-4088-a77d-cd453d64bb06
+r	java:S106"+Replace this use of System.out by a logger.(Œ§ÌÆûÿÿÿÿ8‡›øî1J$16b8a83c-a77f-491b-920f-cccd8edd20e7
+r	java:S106"+Replace this use of System.out by a logger.(á¢·®úÿÿÿÿ8‡›øî1J$748ab366-2de2-47dd-aa04-8e651bd45227
+r	java:S106"+Replace this use of System.out by a logger.(›ì‘úÿÿÿÿ8‡›øî1J$ebf5ecbb-38c1-4330-abf1-b582a1410871
+l
+java:S2140-")Use "java.util.Random.nextInt()" instead.(ƒ¥ì8ˆ›øî1J$a8f7f797-9226-4573-93c2-e3eef6d40f2b
+m	java:S1060"+Replace this use of System.out by a logger.(ğ¯±Î8ˆ›øî1J$5910b300-4134-43aa-a23b-3322b0e14d70
+q
+java:S21403")Use "java.util.Random.nextInt()" instead.(è¿¤Ïúÿÿÿÿ8ˆ›øî1J$2e3b8b4e-ebce-4430-a539-cb1f9a0ff308
+m	java:S1064"+Replace this use of System.out by a logger.(Ş¯õš8ˆ›øî1J$3cfbb534-2dd4-4bd9-a0ea-45183e1b75ce
+q
+java:S21408")Use "java.util.Random.nextInt()" instead.(”÷á¼üÿÿÿÿ8ˆ›øî1J$cd64e449-45c8-45fa-a4e6-399c63a76a58
+r	java:S1069"+Replace this use of System.out by a logger.(½÷¾äúÿÿÿÿ8ˆ›øî1J$de20f07b-9053-4698-86c6-bc102135e543
+k
+java:S2140=")Use "java.util.Random.nextInt()" instead.(Ã†Ÿ88Ï²øî1J$c54e5578-9d4e-49c1-b62e-72dc5ec93a2c
+r	java:S106>"+Replace this use of System.out by a logger.(šÕ¼Ôüÿÿÿÿ8üóøî1J$be009224-0db8-4e5c-8a7b-59ae9a10294b
