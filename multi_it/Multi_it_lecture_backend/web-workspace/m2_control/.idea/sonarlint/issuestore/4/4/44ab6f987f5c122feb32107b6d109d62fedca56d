@@ -1,0 +1,17 @@
+
+“
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(çÌùãÿÿÿÿÿ8‡¹©àî1J$432b47b6-04de-4dd7-8063-764a02713e7d
+w
+java:S1874"/Remove this use of "getYear"; it is deprecated.(ÉšßÜıÿÿÿÿ8¹©àî1J$5da7621e-0feb-469f-9878-38a4e158b67d
+m	java:S106"+Replace this use of System.out by a logger.(ÜÚÊ8¹©àî1J$ed1c4487-c315-4258-beb4-2b1c9952c818
+r	java:S106"+Replace this use of System.out by a logger.(‚·¦¦ÿÿÿÿÿ8¹©àî1J$e0fadeb4-a933-4235-b5e5-a5f38f336f26
+v
+java:S1874".Remove this use of "getDay"; it is deprecated.(–É¼€ıÿÿÿÿ8¹©àî1J$d8bb8cfa-351c-4371-a494-5e1d1de4ce02
+“	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(ÑùÅŸûÿÿÿÿ8¹©àî1J$44f0e31f-b722-43a1-b98c-87d4a89cbf80
+l	java:S106"+Replace this use of System.out by a logger.(ü®ºD8¹©àî1J$dc044b0f-7529-4830-9634-d245ab893853
+r	java:S106"+Replace this use of System.out by a logger.(ö½¶ùÿÿÿÿ8¹©àî1J$72df3789-b400-4fe0-b898-af2c7fa7050d
+s
+java:S1874#"0Remove this use of "getMonth"; it is deprecated.(å¤æ¤8¹©àî1J$f1febf0f-1ce9-4c64-9301-f95637b08bc8
+r	java:S106)"+Replace this use of System.out by a logger.(ôÒ—ğıÿÿÿÿ8¹©àî1J$2f21ce51-37e3-4077-a441-14677a872ea6
+m	java:S106-"+Replace this use of System.out by a logger.(Ì¸¢ß8¹©àî1J$43ff879b-d408-44ae-81b0-c38743743537
+r	java:S1061"+Replace this use of System.out by a logger.(ÄÆ™œüÿÿÿÿ8»ªàî1J$153a2faf-dc77-4f87-b95a-6e36a933a924

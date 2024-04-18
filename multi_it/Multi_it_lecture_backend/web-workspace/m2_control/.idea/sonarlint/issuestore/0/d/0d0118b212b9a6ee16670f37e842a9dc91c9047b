@@ -1,0 +1,16 @@
+
+‹
+java:S6208"CMerge the previous cases into this one using comma-separated label.(ÌÊëÎüÿÿÿÿ8óÆÈÔî1J$ebcb9007-c93e-444e-9ea1-4ec56143e5f8
+‹
+java:S6208"CMerge the previous cases into this one using comma-separated label.(˜Çúÿÿÿÿ8½áÈÔî1J$ee0056ba-a95b-47c7-87f7-ce1086006410
+‹
+java:S6208"CMerge the previous cases into this one using comma-separated label.(•‚“²ıÿÿÿÿ8½áÈÔî1J$e6444447-5885-4907-aef8-86220d8aa24d
+s
+java:S1874	"0Remove this use of "getMonth"; it is deprecated.(Ù˜“İ8µöÌÔî1J$f7556bdd-afd3-413d-a673-597756c7d62d
+r	java:S106
+"+Replace this use of System.out by a logger.(€‹¡ıÿÿÿÿ8¬ÈÔî1J$5d8b8072-8a2c-4770-b8b7-d0d83e4fae60
+i	java:S131""Add a default case to this switch.(¹Ë”Óùÿÿÿÿ8ƒáÇÔî1J$96fa4461-c813-4432-ad28-9ba0a0a2d400
+r	java:S106"+Replace this use of System.out by a logger.(õÓ”´üÿÿÿÿ8şÆÈÔî1J$2804b77e-b88b-4ab2-8fa9-66c3e8748cd4
+r	java:S106"+Replace this use of System.out by a logger.(Ô«ùÆşÿÿÿÿ8ÂáÈÔî1J$eefc3c3f-3d80-4ee8-bca9-a074c9a05346
+r	java:S106"+Replace this use of System.out by a logger.(á©…İøÿÿÿÿ8ÂáÈÔî1J$d45771c0-f793-4922-a17b-2d75f92066ab
+l	java:S106 "+Replace this use of System.out by a logger.(œÓç18÷³•Õî1J$2fd0efdd-4f42-4f52-9905-54343b6f9ddf

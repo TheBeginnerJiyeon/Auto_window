@@ -1,0 +1,11 @@
+
+“
+java:S1301 "KReplace this "switch" statement by "if" statements to increase readability.(á°Åñüÿÿÿÿ8«ä°Õî1J$0ae17d7f-8be7-4d80-b44f-3560033820c0
+d	java:S131	""Add a default case to this switch.(¾’ºê8°ä°Õî1J$d71edca2-f3a6-4c0d-bd32-33d6e2bb2e99
+r	java:S106"+Replace this use of System.out by a logger.(ç”Çóþÿÿÿÿ8±ä°Õî1J$28c3109b-35d9-4595-b881-98e9d9edb399
+m	java:S106"+Replace this use of System.out by a logger.(€‘€‚8±ä°Õî1J$2a643282-e8cc-499b-96de-7c85d16c1e65
+r	java:S106"+Replace this use of System.out by a logger.(•î×¨ùÿÿÿÿ8±ä°Õî1J$06c90aa8-d878-49f8-85de-51b072db41e6
+m	java:S106"+Replace this use of System.out by a logger.(µ®¶¼8±ä°Õî1J$5a2a5dd9-002d-45e2-8b44-523e5e7139da
+i	java:S131 ""Add a default case to this switch.(á°Åñüÿÿÿÿ8±ä°Õî1J$8391ea53-2168-40f1-b997-0b61186dd26f
+r	java:S106#"+Replace this use of System.out by a logger.(…³«Âÿÿÿÿÿ8âË±Õî1J$35c61a51-17b9-4571-8f6a-3ed3da97813d
+m	java:S106&"+Replace this use of System.out by a logger.(õü¬Ì8×ÐÈÕî1J$6c0940ce-35e7-44d1-94b2-ed9a455289a5

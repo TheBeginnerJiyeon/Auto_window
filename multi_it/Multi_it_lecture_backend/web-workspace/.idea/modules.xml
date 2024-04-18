@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/m1_variable_operator/m1_variable_operator.iml" filepath="$PROJECT_DIR$/m1_variable_operator/m1_variable_operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi_web/02_java/m1_variable_operator/m1_variable_operator1.iml" filepath="$PROJECT_DIR$/multi_web/02_java/m1_variable_operator/m1_variable_operator1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2_control/m2_control.iml" filepath="$PROJECT_DIR$/m2_control/m2_control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi_web/01_web/mypractice/prac01/prac01.iml" filepath="$PROJECT_DIR$/multi_web/01_web/mypractice/prac01/prac01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi_web/01_web/mypractice/prac02/prac02.iml" filepath="$PROJECT_DIR$/multi_web/01_web/mypractice/prac02/prac02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi_web/02_java/untitled/untitled.iml" filepath="$PROJECT_DIR$/multi_web/02_java/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-workspace.iml" filepath="$PROJECT_DIR$/web-workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi_web/web_homework/web_homework.iml" filepath="$PROJECT_DIR$/multi_web/web_homework/web_homework.iml" />
+    </modules>
+  </component>
+</project>

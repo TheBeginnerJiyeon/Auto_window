@@ -1,0 +1,36 @@
+
+
+java:S1854"9Remove this useless assignment to local variable "month".(ŞÊò’ûÿÿÿÿ8ññ¶Ôî1J$79e581af-0baf-4f61-978c-83df99cdd954
+x
+java:S1874"0Remove this use of "getMonth"; it is deprecated.(ŞÊò’ûÿÿÿÿ8òñ¶Ôî1J$5647f2bd-eb1b-483f-aadf-eaca91a66b58
+r
+java:S1481"*Remove this unused "month" local variable.(ŞÊò’ûÿÿÿÿ8óñ¶Ôî1J$1c49dd7f-7c3b-4cb9-b2e1-5e5658017b73
+v
+java:S1874".Remove this use of "getDay"; it is deprecated.(û€ÙÙûÿÿÿÿ8óñ¶Ôî1J$36e0a17e-f915-4caf-8af2-e768bdc981ee
+m	java:S106"+Replace this use of System.out by a logger.(â¯˜‚8óñ¶Ôî1J$be7c6df4-2982-4382-bbfa-a96fd0e12b3a
+m	java:S106"+Replace this use of System.out by a logger.(œÃ«¯8óñ¶Ôî1J$e72e0c7f-131f-4014-9fa4-7989a2066301
+m	java:S106"+Replace this use of System.out by a logger.(œÃ«¯8óñ¶Ôî1J$bac2d493-77c3-4cbe-843b-19c0672f7d43
+r	java:S106"+Replace this use of System.out by a logger.(ŠÇãüÿÿÿÿ8óñ¶Ôî1J$da0d1e61-a868-40cc-b616-28ae3f7c58f4
+ƒ	java:S125'"<This block of commented-out lines of code should be removed.(×åê‡ùÿÿÿÿ8ª·Ôî1J$300fb2d0-dfc7-4125-b43b-d1738edd0260
+m	java:S106>"+Replace this use of System.out by a logger.(œšß’8çÙ¸Ôî1J$73fbf9a4-8382-4bff-9912-af288982a35a
+z
+java:S3252>"7Use static access with "java.util.Calendar" for "DATE".(œšß’8çÙ¸Ôî1J$1ad930a1-1d9f-4241-8bfd-c8968467ca8b
+r	java:S106?"+Replace this use of System.out by a logger.(¬¥«¡üÿÿÿÿ8èÙ¸Ôî1J$9cecaef7-38a8-41cf-bbd3-f8632f76a920
+†
+java:S3252?">Use static access with "java.util.Calendar" for "DAY_OF_WEEK".(¬¥«¡üÿÿÿÿ8èÙ¸Ôî1J$fa36fcd1-2640-4928-9001-174f3a0c04a8
+m	java:S106@"+Replace this use of System.out by a logger.(Úôáœ8èÙ¸Ôî1J$c1fb9dd7-f22d-48e3-9b5d-986c224720c7
+z
+java:S3252@"7Use static access with "java.util.Calendar" for "HOUR".(Úôáœ8èÙ¸Ôî1J$e0db0dbd-e26a-4a4b-9a5e-068bb59977cd
+m	java:S106A"+Replace this use of System.out by a logger.(É˜ï¨8èÙ¸Ôî1J$e9437226-bc32-43ff-92ca-de01cf036322
+|
+java:S3252A"9Use static access with "java.util.Calendar" for "MINUTE".(É˜ï¨8èÙ¸Ôî1J$758de97d-da92-45b3-a437-38fc87da541c
+m	java:S106B"+Replace this use of System.out by a logger.(ªŒÍ8èÙ¸Ôî1J$6c7fa06b-811b-48d4-8a6c-bc47aa5dbe26
+{
+java:S3252B"8Use static access with "java.util.Calendar" for "MONTH".(ªŒÍ8èÙ¸Ôî1J$5a879003-2124-4978-b6df-c12ddbf874dc
+m	java:S106C"+Replace this use of System.out by a logger.(½˜ÉÉ8èÙ¸Ôî1J$385afdfe-cf4b-4100-b1cd-e9c7f87cd282
+|
+java:S3252C"9Use static access with "java.util.Calendar" for "SECOND".(½˜ÉÉ8èÙ¸Ôî1J$f8af6cfe-a51e-4272-9c05-4c8f96c10dda
+r	java:S106D"+Replace this use of System.out by a logger.(èŸğ°ûÿÿÿÿ8éÙ¸Ôî1J$bf4c2d48-d26b-4f5b-a4cc-699b311e74a4
+
+java:S3252D"7Use static access with "java.util.Calendar" for "YEAR".(èŸğ°ûÿÿÿÿ8éÙ¸Ôî1J$857b3ae9-6b36-4b4c-ab4f-fd5a6b8ec430
+m	java:S106H"+Replace this use of System.out by a logger.(Á±Ï8éÙ¸Ôî1J$95cd3461-4eda-44bb-919c-1308010c8ba3

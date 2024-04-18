@@ -1,0 +1,22 @@
+
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8Ó®Úöî1J$0b6de741-6a22-4bd1-a8b5-f2286d0946d9
+^
+java:S3626Q"Remove this redundant jump.(ÉŠ©ƒ8«»Ñöî1J$427f8692-023f-4852-89a3-542a9ad412fc
+^
+java:S3626^"Remove this redundant jump.(ÉŠ©ƒ8«»Ñöî1J$4781ad31-74fe-400a-8198-dad262c654c6
+r	java:S106"+Replace this use of System.out by a logger.(´‹¹öþÿÿÿÿ8¬»Ñöî1J$8caed170-39e7-4124-a082-3c0abf0c0f74
+m	java:S106"+Replace this use of System.out by a logger.(Ü¼Î€8¬»Ñöî1J$fdc49503-f347-4513-858e-2277f6e24208
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(›¿äÅÿÿÿÿÿ8­»Ñöî1J$5b597d31-6d09-4c95-afd8-a6fd3fe623e7
+m	java:S106"+Replace this use of System.out by a logger.(ë—ë£8­»Ñöî1J$48c99e72-2ca0-43d5-a7f2-92e150dc905f
+r	java:S106%"+Replace this use of System.out by a logger.(÷ºâÿÿÿÿÿÿ8­»Ñöî1J$0a248e0f-a117-444b-ac41-4bc4c9bfcca1
+r	java:S106."+Replace this use of System.out by a logger.(ÔõÄ‚øÿÿÿÿ8­»Ñöî1J$f3b9191b-89fb-47f1-a6d1-d821573c91be
+r	java:S1065"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8­»Ñöî1J$f52881a7-48a3-497e-a5b4-2e7185b44e33
+r	java:S106;"+Replace this use of System.out by a logger.(ÔõÄ‚øÿÿÿÿ8®»Ñöî1J$eb4c5ecf-1395-4930-97a2-5bc1eb0f6e2b
+r	java:S106?"+Replace this use of System.out by a logger.(…»Ã‹üÿÿÿÿ8®»Ñöî1J$fbe1d0e3-c9bf-4234-9ad8-91c9ff13c631
+r	java:S106A"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8®»Ñöî1J$622f73e3-cbbb-4064-8cd9-df73bc8270c7
+m	java:S106H"+Replace this use of System.out by a logger.(‚¨Ö§8®»Ñöî1J$5ccb85c7-af2a-46ee-9e2a-ce4b25487462
+m	java:S106U"+Replace this use of System.out by a logger.(«Ãýû8®»Ñöî1J$886d7cf0-e7a0-4c7b-b6ac-349b2a71406b
+r	java:S106\"+Replace this use of System.out by a logger.(°¯ÿÁüÿÿÿÿ8®»Ñöî1J$ef15693f-f6af-458c-9e66-89e46337d8c9
+r	java:S106d"+Replace this use of System.out by a logger.(ƒÇãˆúÿÿÿÿ8©ËÛöî1J$11ad22ac-c152-42f9-9a3a-882e43fe24d5
+r	java:S106i"+Replace this use of System.out by a logger.(°¯ÿÁüÿÿÿÿ8£ŸÞöî1J$96492b1a-09c4-47af-a1b9-b676817c68eb

@@ -17,7 +17,7 @@ public class Tire {
 		if (accumulatedRotation < maxRotation) {
 			System.out.println(location + "Tire 수명" + (maxRotation - accumulatedRotation) + "회");
 			return true;
-		}else {
+		} else {
 			System.out.println("***" + location + "Tire 펑크 ***");
 			return false;
 		}
