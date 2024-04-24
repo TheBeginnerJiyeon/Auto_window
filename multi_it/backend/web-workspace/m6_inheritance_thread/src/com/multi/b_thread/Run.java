@@ -7,14 +7,14 @@ public class Run {
 	
 	public static void main(String[] args) {
 		
-		// 스레드 테스트 1
+		/*// 스레드 테스트 1
 		Thread1 t1 = new Thread1();
 		Thread2 t2 = new Thread2();
 		
 		Thread th=new Thread(t2);
 		
 		t1.run();
-		t2.run();
+		//t2.run();
 		
 		t1.start();
 		th.start();
@@ -22,7 +22,7 @@ public class Run {
 		th.setPriority(1);
 		
 		System.out.println("main이 종료되었습니다.");
-		
+		*/
 		
 		// 스레드 테스트 2
 		

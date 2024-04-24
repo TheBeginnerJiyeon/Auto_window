@@ -2,6 +2,7 @@ package com.multi.practice.d_package.controller;
 
 import com.multi.practice.d_package.model.Product;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CatalogueController {
@@ -54,8 +55,63 @@ public class CatalogueController {
 		
 	}
 	
+	public void updateProduct() {
+		
+		ArrayList list1 = new ArrayList() {{
+			add("숫자 아이디를");
+			add("제품명을");
+			add("가격을");
+		}};
+		
+		
+		while (true) {
+			System.out.println("총 " + Product.count + "개의 제품이 있습니다. 몇번째 제품을 수정하고 싶으십니까 ? ");
+			
+			int item_num = sc.nextInt();
+			
+			Product product = pr_list[item_num - 1];
+			
+			for (int i = 0; i < list1.size(); i++) {
+				Scanner sc = new Scanner(System.in);
+				System.out.println(list1.get(i) + " 변경하고 싶으십니까? (yes/no)");
+				String reply = sc.nextLine();
+				
+				if (reply.equals("yes") || reply.equals("y")) {
+					System.out.print(list1.get(i) + " 입력: ");
+					if (i == 1) {
+						String a = sc.nextLine();
+						product.setName(a);
+					} else {
+						int ii = sc.nextInt();
+						sc.nextLine();
+						if (i == 0) {
+							product.setId(ii);
+						} else {
+							product.setPrice(ii);
+						}
+					}
+				} else {
+					continue;
+				}
+			}
+			System.out.println("제품의 정보가 변경되었습니다.");
+			System.out.println(product.toString());
+			
+			System.out.println("또 변경하고 싶으십니까? (yes/no)");
+			String reply = sc.next();
+			sc.nextLine();
+			if (reply.equals("yes") || reply.equals("y")) {
+				continue;
+			} else {
+				break;
+			}
+		}
+		
+	}
 	
-	public void updateProduct1() {
+	
+	
+	/*public void updateProduct1() {
 		System.out.println("몇번째 제품을 수정하고 싶으십니까?");
 		
 		int item_num = sc.nextInt();
@@ -122,7 +178,7 @@ public class CatalogueController {
 		System.out.println(product.toString());
 		
 		
-	}
+	}*/
 	
 	
 }

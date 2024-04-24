@@ -3,13 +3,13 @@ package com.multi.b_thread;
 import java.util.TimerTask;
 import java.util.concurrent.CountDownLatch;
 
-public class TimerTest extends TimerTask{
+public class TimerTest extends TimerTask {
 	
 	private CountDownLatch latch;
 	
 	TimerTest(CountDownLatch latch) {
 		this.latch = latch;
-	
+		
 	}
 	
 	@Override

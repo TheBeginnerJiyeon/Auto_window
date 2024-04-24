@@ -30,8 +30,12 @@ public class View {
 				break;
 			
 			case 2:
-				System.out.println("총 " + Product.count + "개의 제품이 있습니다");
-				System.out.println("제품 수정방법 1~3를 선택하고 특정번호를 입력하십시오. ");
+				
+				cc.updateProduct();
+				
+				
+				
+				/*System.out.println("제품 수정방법 1~3를 선택하고 특정번호를 입력하십시오. ");
 				System.out.println();
 				System.out.println("1. 아이디/제품명/가격");
 				System.out.println("2. 제품명/가격");
@@ -45,7 +49,10 @@ public class View {
 					cc.updateProduct2();
 				} else if (choice2 == 3) {
 					cc.updateProduct3();
-				}
+				}*/
+				
+				
+				
 				break;
 			
 			
