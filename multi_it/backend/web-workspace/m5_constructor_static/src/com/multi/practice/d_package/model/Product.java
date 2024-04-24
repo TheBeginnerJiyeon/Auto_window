@@ -6,6 +6,7 @@ public class Product {
 	private int id;
 	private String name;
 	private double price;
+	private int myCount=0;
 	public static int count = 0;
 	
 	public Product() {
@@ -16,6 +17,7 @@ public class Product {
 	public Product(int id, String name, double price) {
 		
 		count++;
+		this.myCount = count;
 		this.id = id;
 		this.name = name;
 		this.price = price;
@@ -50,8 +52,8 @@ public class Product {
 	@Override
 	public String toString() {
 		return "Product{" +
-				
-				"id=" + id +
+				"순번=" + myCount +
+				", id=" + id +
 				", name='" + name + '\'' +
 				", price=" + price +
 				'}';
