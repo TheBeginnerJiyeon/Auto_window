@@ -1,4 +1,4 @@
-package com.multi.practice;
+package com.multi.Thread1;
 
 public class GraphicMain {
 	
