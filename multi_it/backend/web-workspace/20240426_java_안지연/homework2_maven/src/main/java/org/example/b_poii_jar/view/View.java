@@ -1,6 +1,6 @@
-package com.multi.homework.b_poii_jar.view;
+package org.example.b_poii_jar.view;
 
-import com.multi.homework.b_poii_jar.controller.NewsController;
+import org.example.b_poii_jar.controller.NewsController;
 
 import javax.swing.*;
 import java.awt.*;
