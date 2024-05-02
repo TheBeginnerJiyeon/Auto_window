@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: junit:junit:3.8.1">
+    <archive path="C:/Users/dkswl/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar" />
+  </library>
+  <library name="servlet-api">
+    <archive path="C:/Users/dkswl/OneDrive/Documents/apache-tomcat-9.0.88/lib/servlet-api.jar" />
+  </library>
+  <library name="lib (2)">
+    <archive path="C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/m8_interface_network/lib/poi-4.1.2.jar" />
+    <archive path="C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/m8_interface_network/lib/jsoup-1.15.3.jar" />
+    <archive path="C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/m8_interface_network/lib/poi-ooxml-4.1.2.jar" />
+    <archive path="C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/web-workspace/m8_interface_network/lib/commons-math3-3.6.1.jar" />
+  </library>
+</eclipse-userlibraries>
+
