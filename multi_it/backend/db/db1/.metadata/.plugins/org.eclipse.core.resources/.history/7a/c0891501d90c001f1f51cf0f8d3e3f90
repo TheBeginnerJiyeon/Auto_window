@@ -1,0 +1,60 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in SYSTEM.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 8.
+-- Time: 오전 9:34:34
+
+-- DML 기본 연습
+
+SELECT * FROM emp;
+
+-- DISTINCT 중복을 제거해서 SELECT 절에서 딱 한번만 쓸 수 있다
+
+SELECT DISTINCT DEPTNO FROM EMP;
+
+
+SELECT DISTINCT DEPTNO, JOB FROM EMP;
+SELECT DISTINCT COMM, JOB FROM EMP;
+
+
+SELECT ENAME, SAL *12 AS YEARSAL, SAL*12-(SAL * 0.03*12)  AS REALSAL FROM EMP;
+
+
+SELECT * 
+FROM EMP
+ORDER BY SAL DESC;
+
+
+
+-- 부서 30,  사번으로 내림차순
+
+SELECT * 
+FROM EMP 
+WHERE DEPTNO =30
+ORDER BY EMPNO DESC;
+
+
+SELECT *
+FROM EMP
+WHERE DEPTNO=30 OR JOB='SALESMAN';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

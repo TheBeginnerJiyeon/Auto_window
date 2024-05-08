@@ -1,0 +1,708 @@
+2024-05-09 01:46:06.239 - DBeaver 24.0.3.202404211624 is starting
+2024-05-09 01:46:06.239 - OS: Windows 11 10.0 (amd64)
+2024-05-09 01:46:06.239 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-05-09 01:46:06.239 - Install path: 'C:\Users\dkswl\AppData\Local\DBeaver'
+2024-05-09 01:46:06.239 - Instance path: 'file:/C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/db/db1/'
+2024-05-09 01:46:06.240 - Memory available 64Mb/1024Mb
+2024-05-09 01:46:06.245 - Create display
+2024-05-09 01:46:06.325 - Initialize desktop platform...
+2024-05-09 01:46:06.413 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
+> Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
+2024-05-09 01:46:06.524 - Initialize base platform...
+2024-05-09 01:46:06.540 - Platform initialized (215ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
+2024-05-09 01:46:06.597 - Starting instance server at http://localhost:62414
+2024-05-09 01:46:06.602 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.200.v20231030-2045]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.200.v20231030-2045]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.200.v20231108-1058]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.36.0.v20231002-1156]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.200.v20230913-1724]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.200.v20231106-1600]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
+> Start jna [com.sun.jna 5.13.0.v20230812-1000]
+2024-05-09 01:46:08.097 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
+2024-05-09 01:46:08.184 - Total database drivers: 112 (112)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
+2024-05-09 01:46:08.239 - Create actions
+2024-05-09 01:46:08.243 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-05-09 01:46:08.243 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-05-09 01:46:08.243 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-05-09 01:46:08.243 - Create workbench actions
+2024-05-09 01:46:08.455 - Initialize workbench window
+2024-05-09 01:46:08.459 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.200.v20231106-1240]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.200.v20231106-1240]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.129.202404211624]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.166.202404211624]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.135.202404211624]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.14.100.202311222042]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.16.0.202311222042]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.89.202404211624]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.89.202404211624]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.126.202404211624]
+> Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.2.202404211624]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.22.202404211624]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.214.202404211624]
+2024-05-09 01:46:09.218 - Connect with 'SCOTT' (oracle_thin-18f3db9c996-14d3d81bc8b1d691)
+2024-05-09 01:46:09.239 - Execution context opened (SCOTT; Main; 0)
+2024-05-09 01:46:09.602 - Execution context opened (SCOTT; Metadata; 1)
+2024-05-09 01:46:09.725 - Connected (oracle_thin-18f3db9c996-14d3d81bc8b1d691, Oracle JDBC driver [19.3.0.0.0])
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.116.202404211624]
+2024-05-09 01:46:12.013 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
+2024-05-09 01:46:28.307 - Connect with 'SYSTEM' (oracle_thin-18f3d8af798-258b22fed01fb076)
+2024-05-09 01:46:28.308 - Execution context opened (SYSTEM; Main; 2)
+2024-05-09 01:46:28.347 - Execution context opened (SYSTEM; Metadata; 3)
+2024-05-09 01:46:28.388 - Connected (oracle_thin-18f3d8af798-258b22fed01fb076, Oracle JDBC driver [19.3.0.0.0])
+2024-05-09 01:46:30.025 - Connect with 'HR' (oracle_thin-18f55de7e19-3444e4cef96c14dc)
+2024-05-09 01:46:30.026 - Execution context opened (HR; Main; 4)
+2024-05-09 01:46:30.058 - Execution context opened (HR; Metadata; 5)
+2024-05-09 01:46:30.094 - Connected (oracle_thin-18f55de7e19-3444e4cef96c14dc, Oracle JDBC driver [19.3.0.0.0])
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.105.202404211624]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
+> Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
+2024-05-09 01:46:45.205 - Execution context opened (HR; SQLEditor <day03_oracle_scott.sql>; 6)
+2024-05-09 01:46:45.208 - Document is null
+2024-05-09 01:46:45.211 - Event loop exception
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.custom.CTabFolder.setFont(CTabFolder.java:2701)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer.applyCurrentPresentationThemeSettings(ResultSetViewer.java:451)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer.access$4(ResultSetViewer.java:449)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-05-09 01:46:49.398 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-09 01:46:49.398 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-09 01:46:49.398 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-09 01:46:49.398 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/scottTableInsert.sql)
+2024-05-09 01:46:52.556 - Execution context opened (SCOTT; SQLEditor <Script-3.sql>; 7)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
+2024-05-09 01:47:14.985 - Execution context opened (HR; SQLEditor <Script-3.sql>; 8)
+2024-05-09 01:47:15.007 - Execution context closed (SCOTT, 7)
+2024-05-09 01:48:27.805 - Error while analyzing query text: -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE 
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:875)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:972)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:953)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:678)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-09 02:03:57.774 - SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 2250, Position : 485, Sql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER, 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER CHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER,
+	ADDRESS VARCHAR2(20),
+	STATUS CHAR(2) CONSTRAINT CHECK( STATUS IN ('Y','N')) NOT NULL
+), OriginalSql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER, 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER CHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER,
+	ADDRESS VARCHAR2(20),
+	STATUS CHAR(2) CONSTRAINT CHECK( STATUS IN ('Y','N')) NOT NULL
+), Error Msg = ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 26 more
+2024-05-09 02:05:21.277 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/apple1.sql)
+2024-05-09 02:05:21.277 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/day011_oracle.sql)
+2024-05-09 02:05:21.277 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/rollback.sql)
+2024-05-09 02:05:21.277 - Datasource oracle_thin-18f3c211492-2c1234772ecf2464 not found in project General (/General/Scripts/scottTableInsert.sql)
+2024-05-09 02:05:23.207 - Execution context opened (HR; SQLEditor <Script-4.sql>; 9)
+2024-05-09 02:05:31.885 - Error positioning on query error
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:119)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:104)
+	at org.eclipse.jface.text.Position.<init>(Position.java:66)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase.visualizeQueryErrors(SQLEditorBase.java:996)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.processQueryResult(SQLEditor.java:4816)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.lambda$4(SQLEditor.java:4790)
+	at org.jkiss.dbeaver.ui.UIUtils$9.runInUIThread(UIUtils.java:1845)
+	at org.jkiss.dbeaver.ui.AbstractUIJob.runInUIThread(AbstractUIJob.java:41)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-05-09 02:05:31.941 - SQL Error [942] [42000]: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:765)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:983)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1168)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 942, Position : 329, Sql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in HR.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 2:05:2
+
+
+SELECT * FROM EMP, OriginalSql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in HR.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 2:05:2
+
+
+SELECT * FROM EMP, Error Msg = ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 27 more
+2024-05-09 02:05:37.550 - Execution context opened (SCOTT; SQLEditor <Script-4.sql>; 10)
+2024-05-09 02:05:37.571 - Execution context closed (HR, 9)
+2024-05-09 02:05:45.186 - Execution context opened (SCOTT; SQLEditor <Script-3.sql>; 11)
+2024-05-09 02:05:45.208 - Execution context closed (HR, 8)
+2024-05-09 02:05:49.300 - SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+
+Error position: line: 15 pos: 487
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 2250, Position : 487, Sql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER, 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER CHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER,
+	ADDRESS VARCHAR2(20),
+	STATUS CHAR(2) CONSTRAINT CHECK( STATUS IN ('Y','N')) NOT NULL
+), OriginalSql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER, 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER CHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER,
+	ADDRESS VARCHAR2(20),
+	STATUS CHAR(2) CONSTRAINT CHECK( STATUS IN ('Y','N')) NOT NULL
+), Error Msg = ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 26 more
+2024-05-09 02:06:32.761 - SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 2250, Position : 491, Sql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER(20), 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER CHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER(20),
+	ADDRESS VARCHAR2(20),
+	STATUS CHAR(2) CONSTRAINT CHECK( STATUS IN ('Y','N')) NOT NULL
+), OriginalSql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER(20), 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER CHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER(20),
+	ADDRESS VARCHAR2(20),
+	STATUS CHAR(2) CONSTRAINT CHECK( STATUS IN ('Y','N')) NOT NULL
+), Error Msg = ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 26 more
+2024-05-09 02:06:36.166 - SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+
+Error position: line: 15 pos: 491
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 2250, Position : 491, Sql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER(20), 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER CHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER(20),
+	ADDRESS VARCHAR2(20),
+	STATUS CHAR(2) CONSTRAINT CHECK( STATUS IN ('Y','N'))
+), OriginalSql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER(20), 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER CHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER(20),
+	ADDRESS VARCHAR2(20),
+	STATUS CHAR(2) CONSTRAINT CHECK( STATUS IN ('Y','N'))
+), Error Msg = ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 26 more
+2024-05-09 02:06:57.364 - SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 2250, Position : 494, Sql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER(20), 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER VARCHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER(20),
+	ADDRESS VARCHAR2(20),
+	STATUS VARCHAR(2) CONSTRAINT CHECK( STATUS IN ('Y','N')) NOT NULL
+), OriginalSql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER(20), 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER VARCHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER(20),
+	ADDRESS VARCHAR2(20),
+	STATUS VARCHAR(2) CONSTRAINT CHECK( STATUS IN ('Y','N')) NOT NULL
+), Error Msg = ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 26 more
+2024-05-09 02:07:06.104 - SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+
+Error position: line: 15 pos: 494
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2250] [42000]: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 2250, Position : 494, Sql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER(20), 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER VARCHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER(20),
+	ADDRESS VARCHAR2(20),
+	STATUS VARCHAR2(2) CONSTRAINT CHECK( STATUS IN ('Y','N')) NOT NULL
+), OriginalSql = -- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 1:46:52
+
+
+CREATE TABLE MEMBER_TEST(
+	USER_NO NUMBER(20), 
+	USER_ID VARCHAR2(20) CONSTRAINT PK1 PRIMARY KEY,
+	PNO NUMBER(13) CONSTRAINT NT1 NOT NULL,
+	GENDER VARCHAR(2) CONSTRAINT CHECK( GENDER IN ('남','여')),
+	PHONE NUMBER(20),
+	ADDRESS VARCHAR2(20),
+	STATUS VARCHAR2(2) CONSTRAINT CHECK( STATUS IN ('Y','N')) NOT NULL
+), Error Msg = ORA-02250: 제약 조건 이름이 누락되었거나 부적합합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 26 more
+2024-05-09 02:07:36.334 - Execution context opened (HR; SQLEditor <Script-3.sql>; 12)
+2024-05-09 02:07:36.346 - Execution context opened (HR; SQLEditor <Script-4.sql>; 13)
+2024-05-09 02:07:36.354 - Execution context closed (SCOTT, 11)
+2024-05-09 02:07:36.369 - Execution context closed (SCOTT, 10)

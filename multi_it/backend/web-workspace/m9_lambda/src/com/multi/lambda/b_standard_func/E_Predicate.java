@@ -52,7 +52,8 @@ public class E_Predicate {
 		System.out.println("유재석은 남자입니까? : " + predicate.test(student1));
 		System.out.println("이효리는  남자입니까? : " + predicate.test(student2));
 		System.out.println("유재석 의 평균 점수는? : " +
-//				평균점수구하는 메소드만들러가자  - 만들고 점수 조절해서 값안나오는거도 확인 
+		//평균점수구하는 메소드만들러가자  - 만들고 점수 조절해서 값안나오는거도 확인
+						// public double avg(Predicate<Student> predicate, Student student)
 						avg((s) -> s.getMath() > 50 && s.getEnglish() > 50, student1)
 		);
 		

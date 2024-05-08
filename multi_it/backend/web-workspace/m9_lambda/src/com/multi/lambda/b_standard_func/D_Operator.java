@@ -65,7 +65,7 @@ public class D_Operator {
 		Student student2 = new Student("이재욱", 20, "M", 100, 100);
 		
 		BinaryOperator<Student> binaryOperator = (s1, s2) -> {// 객체를 넣고  객체 리턴 
-			//System.out.println(Integer.compare(s1.getMath(), s2.getMath()));//비교대상(y)보다 크면 1, 작으면 -1, 동일하면 0
+			//System.out.println(Integer.compare(s1.getMath(), s2.getMath()));// (x < y) ? -1 : ((x == y) ? 0 : 1);
 			
 			if(s1.getMath() > s2.getMath()) {
 				return s1;

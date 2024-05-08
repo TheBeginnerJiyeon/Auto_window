@@ -11,7 +11,7 @@ public class B_Supplier {
 	 *   	@param <T> the type of results supplied by this supplier
             T get() :  T 타입으로 정해진 값을 반환한
 	 */
-	
+	 
 	public void method1() {
 		
 		//익명객체
@@ -21,7 +21,7 @@ public class B_Supplier {
 				return "익명객체 - <T>Type으로 정해진 값을 반환";
 			}
 			
-			;
+			
 		};
 		System.out.println(supplier1.get());
 		

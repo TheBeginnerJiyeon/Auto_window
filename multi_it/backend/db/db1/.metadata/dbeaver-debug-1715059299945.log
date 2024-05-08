@@ -1,0 +1,2173 @@
+2024-05-07 11:14:48.553 - DBeaver 24.0.3.202404211624 is starting
+2024-05-07 11:14:48.553 - OS: Windows 11 10.0 (amd64)
+2024-05-07 11:14:48.553 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-05-07 11:14:48.553 - Install path: 'C:\Users\dkswl\AppData\Local\DBeaver'
+2024-05-07 11:14:48.554 - Instance path: 'file:/C:/Users/dkswl/OneDrive/Documents/code_upload/Auto_window/multi_it/backend/db/db1/'
+2024-05-07 11:14:48.555 - Memory available 64Mb/1024Mb
+2024-05-07 11:14:48.560 - Create display
+2024-05-07 11:14:48.630 - Initialize desktop platform...
+2024-05-07 11:14:48.707 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
+> Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
+2024-05-07 11:14:48.820 - Initialize base platform...
+2024-05-07 11:14:48.832 - Platform initialized (202ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
+2024-05-07 11:14:48.887 - Starting instance server at http://localhost:51249
+2024-05-07 11:14:48.891 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.200.v20231030-2045]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.200.v20231030-2045]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.200.v20231108-1058]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.36.0.v20231002-1156]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.200.v20230913-1724]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.200.v20231106-1600]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
+> Start jna [com.sun.jna 5.13.0.v20230812-1000]
+2024-05-07 11:14:49.754 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
+2024-05-07 11:14:49.845 - Total database drivers: 112 (112)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
+2024-05-07 11:14:49.898 - Create actions
+2024-05-07 11:14:49.901 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-05-07 11:14:49.902 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-05-07 11:14:49.902 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-05-07 11:14:49.902 - Create workbench actions
+2024-05-07 11:14:50.133 - Initialize workbench window
+2024-05-07 11:14:50.138 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.129.202404211624]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.105.202404211624]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.200.v20231106-1240]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.200.v20231106-1240]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.166.202404211624]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.135.202404211624]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.14.100.202311222042]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.16.0.202311222042]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.89.202404211624]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.89.202404211624]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.126.202404211624]
+> Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.2.202404211624]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.22.202404211624]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.214.202404211624]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
+> Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
+2024-05-07 11:14:51.825 - Connect with 'SCOTT' (oracle_thin-18f3db9c996-14d3d81bc8b1d691)
+2024-05-07 11:14:51.841 - Execution context opened (SCOTT; Main; 0)
+2024-05-07 11:14:52.074 - Execution context opened (SCOTT; Metadata; 1)
+2024-05-07 11:14:52.150 - Connected (oracle_thin-18f3db9c996-14d3d81bc8b1d691, Oracle JDBC driver [19.3.0.0.0])
+2024-05-07 11:14:52.166 - Execution context opened (SCOTT; SQLEditor <day02_oracle.sql>; 2)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.116.202404211624]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
+2024-05-07 11:16:26.995 - Error while analyzing query text: -- TRUNCATE : 테이블의 전체행을 삭제할시 사용된다
+--            DELETE  보다 수행속도 빠르다
+--            ROLLBACK 을 통해 복구 할수 없다.
+
+/*SELECT * FROM MEMBER;
+COMMIT;
+DELETE FROM MEMBER;
+ROLLBACK;
+
+TRUNCATE TABLE MEMBER;
+ROLLBACK;*/
+
+
+-- 제약조건 관계 걸어보기
+
+CREATE TABLE 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:875)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:972)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:953)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:678)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 11:16:26.996 - Error while analyzing query text: -- TRUNCATE : 테이블의 전체행을 삭제할시 사용된다
+--            DELETE  보다 수행속도 빠르다
+--            ROLLBACK 을 통해 복구 할수 없다.
+
+/*SELECT * FROM MEMBER;
+COMMIT;
+DELETE FROM MEMBER;
+ROLLBACK;
+
+TRUNCATE TABLE MEMBER;
+ROLLBACK;*/
+
+
+-- 제약조건 관계 걸어보기
+
+CREATE TABLE 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:875)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:972)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:953)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:678)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.113.202404211624]
+2024-05-07 11:19:02.441 - Object 'BIN$5raHAjYkRe+PmYzPXyrktA==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$BzPeNtN8SgeqcjOU6imwww==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$JBQVsvAnRByJut92ZuR7Gg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$PxPYxwj+QxC95xqf4wTpgg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$S7uj0qKgS+iPN6gHvFtKcw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$SmlE3FbISoq1/McVYGYNHw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$VC8v9cAsTRqG455NRhNpDg==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$VRoV6hliTp6ne5sQNDlsoA==$0' owner 'BIN$K58lwYWkTOyo/xBqV4hSiQ==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$akuVZuHORSy6EGyLxBHKrQ==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$mEwbHwVqQCyyClJ9i7SdYA==$0' owner 'BIN$Ixl52ydOTTWJKhwY5PJRnA==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$nL141yifTNapsUE86TVbGQ==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$s5dkZI+VR3OvqhKFg+dI3w==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:19:02.442 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:19:02.443 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:19:02.443 - Object 'BIN$zLm9zWe7Ss6quyzIbdH+ew==$0' owner 'BIN$PJDDEXmBSgizAFQA2eCXSw==$0' not found
+2024-05-07 11:19:02.443 - Can't get column 'COLUMN_NAMES_NUMS': 부적합한 열 이름
+> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
+2024-05-07 11:21:27.643 - Object 'BIN$5raHAjYkRe+PmYzPXyrktA==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:21:27.643 - Object 'BIN$BzPeNtN8SgeqcjOU6imwww==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:21:27.643 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:21:27.643 - Object 'BIN$JBQVsvAnRByJut92ZuR7Gg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:21:27.643 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 11:21:27.643 - Object 'BIN$PxPYxwj+QxC95xqf4wTpgg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:21:27.643 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:21:27.643 - Object 'BIN$S7uj0qKgS+iPN6gHvFtKcw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:21:27.643 - Object 'BIN$SmlE3FbISoq1/McVYGYNHw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:21:27.643 - Object 'BIN$VC8v9cAsTRqG455NRhNpDg==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:21:27.643 - Object 'BIN$VRoV6hliTp6ne5sQNDlsoA==$0' owner 'BIN$K58lwYWkTOyo/xBqV4hSiQ==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$akuVZuHORSy6EGyLxBHKrQ==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$mEwbHwVqQCyyClJ9i7SdYA==$0' owner 'BIN$Ixl52ydOTTWJKhwY5PJRnA==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$nL141yifTNapsUE86TVbGQ==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$s5dkZI+VR3OvqhKFg+dI3w==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:21:27.644 - Object 'BIN$zLm9zWe7Ss6quyzIbdH+ew==$0' owner 'BIN$PJDDEXmBSgizAFQA2eCXSw==$0' not found
+2024-05-07 11:22:04.072 - Object 'BIN$5raHAjYkRe+PmYzPXyrktA==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$BzPeNtN8SgeqcjOU6imwww==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$JBQVsvAnRByJut92ZuR7Gg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$PxPYxwj+QxC95xqf4wTpgg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$S7uj0qKgS+iPN6gHvFtKcw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$SmlE3FbISoq1/McVYGYNHw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$VC8v9cAsTRqG455NRhNpDg==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$VRoV6hliTp6ne5sQNDlsoA==$0' owner 'BIN$K58lwYWkTOyo/xBqV4hSiQ==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$akuVZuHORSy6EGyLxBHKrQ==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$mEwbHwVqQCyyClJ9i7SdYA==$0' owner 'BIN$Ixl52ydOTTWJKhwY5PJRnA==$0' not found
+2024-05-07 11:22:04.073 - Object 'BIN$nL141yifTNapsUE86TVbGQ==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:22:04.074 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 11:22:04.074 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 11:22:04.074 - Object 'BIN$s5dkZI+VR3OvqhKFg+dI3w==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:22:04.074 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:22:04.074 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:22:04.074 - Object 'BIN$zLm9zWe7Ss6quyzIbdH+ew==$0' owner 'BIN$PJDDEXmBSgizAFQA2eCXSw==$0' not found
+2024-05-07 11:22:31.668 - Object 'BIN$5raHAjYkRe+PmYzPXyrktA==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:22:31.668 - Object 'BIN$BzPeNtN8SgeqcjOU6imwww==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$JBQVsvAnRByJut92ZuR7Gg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$PxPYxwj+QxC95xqf4wTpgg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$S7uj0qKgS+iPN6gHvFtKcw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$SmlE3FbISoq1/McVYGYNHw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$VC8v9cAsTRqG455NRhNpDg==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$VRoV6hliTp6ne5sQNDlsoA==$0' owner 'BIN$K58lwYWkTOyo/xBqV4hSiQ==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$akuVZuHORSy6EGyLxBHKrQ==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$mEwbHwVqQCyyClJ9i7SdYA==$0' owner 'BIN$Ixl52ydOTTWJKhwY5PJRnA==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$nL141yifTNapsUE86TVbGQ==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$s5dkZI+VR3OvqhKFg+dI3w==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:22:31.669 - Object 'BIN$zLm9zWe7Ss6quyzIbdH+ew==$0' owner 'BIN$PJDDEXmBSgizAFQA2eCXSw==$0' not found
+2024-05-07 11:24:04.301 - Error while analyzing query text: ALTER TABLE 
+
+
+
+
+
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:875)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:972)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:953)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:678)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 11:24:33.666 - Error while analyzing query text: ALTER TABLE BBS
+ADD CONSTRAINT FK2
+FOREIGN KEY (WRITER) REFERENCES 
+
+
+
+
+
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:875)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:972)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:953)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:678)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 11:35:23.601 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 955, Position : 13, Sql = CREATE TABLE MEMBER2
+   (
+    ID NUMBER(10) PRIMARY KEY , -- 컬럼 레벨
+	PW VARCHAR2(10), 
+	NAME VARCHAR2(10), 
+	TEL VARCHAR2(10)
+   ), OriginalSql = CREATE TABLE MEMBER2
+   (
+    ID NUMBER(10) PRIMARY KEY , -- 컬럼 레벨
+	PW VARCHAR2(10), 
+	NAME VARCHAR2(10), 
+	TEL VARCHAR2(10)
+   ), Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 11:37:28.832 - Object 'BIN$5raHAjYkRe+PmYzPXyrktA==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:37:28.832 - Object 'BIN$BzPeNtN8SgeqcjOU6imwww==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:37:28.832 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:37:28.832 - Object 'BIN$JBQVsvAnRByJut92ZuR7Gg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:37:28.832 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 11:37:28.832 - Object 'BIN$PxPYxwj+QxC95xqf4wTpgg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:37:28.832 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:37:28.832 - Object 'BIN$S7uj0qKgS+iPN6gHvFtKcw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:37:28.845 - Object 'BIN$SmlE3FbISoq1/McVYGYNHw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:37:28.845 - Object 'BIN$VC8v9cAsTRqG455NRhNpDg==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:37:28.845 - Object 'BIN$VRoV6hliTp6ne5sQNDlsoA==$0' owner 'BIN$K58lwYWkTOyo/xBqV4hSiQ==$0' not found
+2024-05-07 11:37:28.846 - Object 'BIN$akuVZuHORSy6EGyLxBHKrQ==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:37:28.846 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:37:28.846 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:37:28.846 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 11:37:28.848 - Object 'BIN$mEwbHwVqQCyyClJ9i7SdYA==$0' owner 'BIN$Ixl52ydOTTWJKhwY5PJRnA==$0' not found
+2024-05-07 11:37:28.848 - Object 'BIN$nL141yifTNapsUE86TVbGQ==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:37:28.848 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 11:37:28.848 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 11:37:28.851 - Object 'BIN$s5dkZI+VR3OvqhKFg+dI3w==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:37:28.851 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:37:28.851 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:37:28.851 - Object 'BIN$zLm9zWe7Ss6quyzIbdH+ew==$0' owner 'BIN$PJDDEXmBSgizAFQA2eCXSw==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$5raHAjYkRe+PmYzPXyrktA==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$BzPeNtN8SgeqcjOU6imwww==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$JBQVsvAnRByJut92ZuR7Gg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$PxPYxwj+QxC95xqf4wTpgg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$S7uj0qKgS+iPN6gHvFtKcw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$SmlE3FbISoq1/McVYGYNHw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$VC8v9cAsTRqG455NRhNpDg==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$VRoV6hliTp6ne5sQNDlsoA==$0' owner 'BIN$K58lwYWkTOyo/xBqV4hSiQ==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$akuVZuHORSy6EGyLxBHKrQ==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 11:37:38.603 - Object 'BIN$mEwbHwVqQCyyClJ9i7SdYA==$0' owner 'BIN$Ixl52ydOTTWJKhwY5PJRnA==$0' not found
+2024-05-07 11:37:38.604 - Object 'BIN$nL141yifTNapsUE86TVbGQ==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:37:38.604 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 11:37:38.604 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 11:37:38.604 - Object 'BIN$s5dkZI+VR3OvqhKFg+dI3w==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:37:38.604 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:37:38.604 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:37:38.604 - Object 'BIN$zLm9zWe7Ss6quyzIbdH+ew==$0' owner 'BIN$PJDDEXmBSgizAFQA2eCXSw==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$5raHAjYkRe+PmYzPXyrktA==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$BzPeNtN8SgeqcjOU6imwww==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$JBQVsvAnRByJut92ZuR7Gg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$PxPYxwj+QxC95xqf4wTpgg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$S7uj0qKgS+iPN6gHvFtKcw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$SmlE3FbISoq1/McVYGYNHw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$VC8v9cAsTRqG455NRhNpDg==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$VRoV6hliTp6ne5sQNDlsoA==$0' owner 'BIN$K58lwYWkTOyo/xBqV4hSiQ==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$akuVZuHORSy6EGyLxBHKrQ==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 11:37:39.773 - Object 'BIN$mEwbHwVqQCyyClJ9i7SdYA==$0' owner 'BIN$Ixl52ydOTTWJKhwY5PJRnA==$0' not found
+2024-05-07 11:37:39.774 - Object 'BIN$nL141yifTNapsUE86TVbGQ==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:37:39.774 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 11:37:39.774 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 11:37:39.774 - Object 'BIN$s5dkZI+VR3OvqhKFg+dI3w==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:37:39.774 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:37:39.774 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:37:39.774 - Object 'BIN$zLm9zWe7Ss6quyzIbdH+ew==$0' owner 'BIN$PJDDEXmBSgizAFQA2eCXSw==$0' not found
+2024-05-07 11:43:04.867 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [907] [42000]: ORA-00907: 누락된 우괄호
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00907: 누락된 우괄호
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 907, Position : 50, Sql = CREATE TABLE REPLY4(
+	ID NUMBER(10,0) PRIMARY KEY;
+	ORIID NUMBER(10) NOT NULL;
+	CONTENT VARCHAR2(10);
+	WRITER VARCHAR2(100) NOT NULL;
+
+	CONSTRAINT FOREIGN KEY (ORIID) REFERENCES BBS(NO),
+	CONSTRAINT FOREIGN KEY (WRITER) REFERENCES MEMBER4(ID)
+
+), OriginalSql = CREATE TABLE REPLY4(
+	ID NUMBER(10,0) PRIMARY KEY;
+	ORIID NUMBER(10) NOT NULL;
+	CONTENT VARCHAR2(10);
+	WRITER VARCHAR2(100) NOT NULL;
+
+	CONSTRAINT FOREIGN KEY (ORIID) REFERENCES BBS(NO),
+	CONSTRAINT FOREIGN KEY (WRITER) REFERENCES MEMBER4(ID)
+
+), Error Msg = ORA-00907: 누락된 우괄호
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 11:43:23.348 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [902] [42000]: ORA-00902: 데이터유형이 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00902: 데이터유형이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 902, Position : 165, Sql = CREATE TABLE REPLY4(
+	ID NUMBER(10,0) PRIMARY KEY,
+	ORIID NUMBER(10) NOT NULL,
+	CONTENT VARCHAR2(10),
+	WRITER VARCHAR2(100) NOT NULL,
+
+	CONSTRAINT FOREIGN KEY (ORIID) REFERENCES BBS(NO),
+	CONSTRAINT FOREIGN KEY (WRITER) REFERENCES MEMBER4(ID)
+
+), OriginalSql = CREATE TABLE REPLY4(
+	ID NUMBER(10,0) PRIMARY KEY,
+	ORIID NUMBER(10) NOT NULL,
+	CONTENT VARCHAR2(10),
+	WRITER VARCHAR2(100) NOT NULL,
+
+	CONSTRAINT FOREIGN KEY (ORIID) REFERENCES BBS(NO),
+	CONSTRAINT FOREIGN KEY (WRITER) REFERENCES MEMBER4(ID)
+
+), Error Msg = ORA-00902: 데이터유형이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 11:44:00.457 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [902] [42000]: ORA-00902: 데이터유형이 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00902: 데이터유형이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 902, Position : 167, Sql = CREATE TABLE REPLY4(
+	ID NUMBER(10,0) PRIMARY KEY,
+	ORIID NUMBER(38,0) NOT NULL,
+	CONTENT VARCHAR2(10),
+	WRITER VARCHAR2(100) NOT NULL,
+
+	CONSTRAINT FOREIGN KEY (ORIID) REFERENCES BBS(NO),
+	CONSTRAINT FOREIGN KEY (WRITER) REFERENCES MEMBER4(ID)
+
+), OriginalSql = CREATE TABLE REPLY4(
+	ID NUMBER(10,0) PRIMARY KEY,
+	ORIID NUMBER(38,0) NOT NULL,
+	CONTENT VARCHAR2(10),
+	WRITER VARCHAR2(100) NOT NULL,
+
+	CONSTRAINT FOREIGN KEY (ORIID) REFERENCES BBS(NO),
+	CONSTRAINT FOREIGN KEY (WRITER) REFERENCES MEMBER4(ID)
+
+), Error Msg = ORA-00902: 데이터유형이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 11:44:57.565 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [902] [42000]: ORA-00902: 데이터유형이 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00902: 데이터유형이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 902, Position : 168, Sql = CREATE TABLE REPLY4(
+	ID NUMBER(38,0) PRIMARY KEY,
+	ORIID NUMBER(38,0) NOT NULL,
+	CONTENT VARCHAR2(100),
+	WRITER VARCHAR2(100) NOT NULL,
+
+	CONSTRAINT FOREIGN KEY (ORIID) REFERENCES BBS(NO),
+	CONSTRAINT FOREIGN KEY (WRITER) REFERENCES MEMBER4(ID)
+
+), OriginalSql = CREATE TABLE REPLY4(
+	ID NUMBER(38,0) PRIMARY KEY,
+	ORIID NUMBER(38,0) NOT NULL,
+	CONTENT VARCHAR2(100),
+	WRITER VARCHAR2(100) NOT NULL,
+
+	CONSTRAINT FOREIGN KEY (ORIID) REFERENCES BBS(NO),
+	CONSTRAINT FOREIGN KEY (WRITER) REFERENCES MEMBER4(ID)
+
+), Error Msg = ORA-00902: 데이터유형이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 11:46:33.001 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2270] [42000]: ORA-02270: 이 열목록에 대해 일치하는 고유 또는 기본 키가 없습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02270: 이 열목록에 대해 일치하는 고유 또는 기본 키가 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 2270, Position : 194, Sql = CREATE TABLE REPLY4(
+	ID NUMBER(38,0) PRIMARY KEY,
+	ORIID NUMBER(38,0) NOT NULL,
+	CONTENT VARCHAR2(100),
+	WRITER VARCHAR2(100) NOT NULL,
+
+	CONSTRAINT F1 FOREIGN KEY (ORIID) REFERENCES BBS(NO),
+	CONSTRAINT F2 FOREIGN KEY (WRITER) REFERENCES MEMBER4(ID)
+
+), OriginalSql = CREATE TABLE REPLY4(
+	ID NUMBER(38,0) PRIMARY KEY,
+	ORIID NUMBER(38,0) NOT NULL,
+	CONTENT VARCHAR2(100),
+	WRITER VARCHAR2(100) NOT NULL,
+
+	CONSTRAINT F1 FOREIGN KEY (ORIID) REFERENCES BBS(NO),
+	CONSTRAINT F2 FOREIGN KEY (WRITER) REFERENCES MEMBER4(ID)
+
+), Error Msg = ORA-02270: 이 열목록에 대해 일치하는 고유 또는 기본 키가 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 11:47:26.212 - Object 'BIN$5raHAjYkRe+PmYzPXyrktA==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:47:26.212 - Object 'BIN$BzPeNtN8SgeqcjOU6imwww==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:47:26.212 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:47:26.212 - Object 'BIN$JBQVsvAnRByJut92ZuR7Gg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:47:26.212 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 11:47:26.212 - Object 'BIN$PxPYxwj+QxC95xqf4wTpgg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$S7uj0qKgS+iPN6gHvFtKcw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$SmlE3FbISoq1/McVYGYNHw==$0' owner 'BIN$GieUrHPaRnuxRGOkYwt2Dw==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$VC8v9cAsTRqG455NRhNpDg==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$VRoV6hliTp6ne5sQNDlsoA==$0' owner 'BIN$K58lwYWkTOyo/xBqV4hSiQ==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$akuVZuHORSy6EGyLxBHKrQ==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$mEwbHwVqQCyyClJ9i7SdYA==$0' owner 'BIN$Ixl52ydOTTWJKhwY5PJRnA==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$nL141yifTNapsUE86TVbGQ==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$s5dkZI+VR3OvqhKFg+dI3w==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 11:47:26.213 - Object 'BIN$zLm9zWe7Ss6quyzIbdH+ew==$0' owner 'BIN$PJDDEXmBSgizAFQA2eCXSw==$0' not found
+2024-05-07 12:20:39.665 - End idle 1 transactions for oracle_thin-18f3db9c996-14d3d81bc8b1d691
+2024-05-07 13:05:48.226 - Object 'BIN$5raHAjYkRe+PmYzPXyrktA==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$BzPeNtN8SgeqcjOU6imwww==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$JBQVsvAnRByJut92ZuR7Gg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$PxPYxwj+QxC95xqf4wTpgg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$VC8v9cAsTRqG455NRhNpDg==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$VRoV6hliTp6ne5sQNDlsoA==$0' owner 'BIN$K58lwYWkTOyo/xBqV4hSiQ==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$akuVZuHORSy6EGyLxBHKrQ==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$mEwbHwVqQCyyClJ9i7SdYA==$0' owner 'BIN$Ixl52ydOTTWJKhwY5PJRnA==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$nL141yifTNapsUE86TVbGQ==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$s5dkZI+VR3OvqhKFg+dI3w==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:05:48.226 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:05:48.227 - Object 'BIN$zLm9zWe7Ss6quyzIbdH+ew==$0' owner 'BIN$PJDDEXmBSgizAFQA2eCXSw==$0' not found
+2024-05-07 13:05:49.882 - Object 'BIN$5raHAjYkRe+PmYzPXyrktA==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$BzPeNtN8SgeqcjOU6imwww==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$JBQVsvAnRByJut92ZuR7Gg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$PxPYxwj+QxC95xqf4wTpgg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$VC8v9cAsTRqG455NRhNpDg==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$VRoV6hliTp6ne5sQNDlsoA==$0' owner 'BIN$K58lwYWkTOyo/xBqV4hSiQ==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$akuVZuHORSy6EGyLxBHKrQ==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$mEwbHwVqQCyyClJ9i7SdYA==$0' owner 'BIN$Ixl52ydOTTWJKhwY5PJRnA==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$nL141yifTNapsUE86TVbGQ==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$s5dkZI+VR3OvqhKFg+dI3w==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:05:49.883 - Object 'BIN$zLm9zWe7Ss6quyzIbdH+ew==$0' owner 'BIN$PJDDEXmBSgizAFQA2eCXSw==$0' not found
+2024-05-07 13:08:16.513 - Object 'BIN$5raHAjYkRe+PmYzPXyrktA==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 13:08:16.513 - Object 'BIN$BzPeNtN8SgeqcjOU6imwww==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 13:08:16.513 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:08:16.513 - Object 'BIN$JBQVsvAnRByJut92ZuR7Gg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 13:08:16.513 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 13:08:16.513 - Object 'BIN$PxPYxwj+QxC95xqf4wTpgg==$0' owner 'BIN$Vgagl9ACTO+SaeNlH670oA==$0' not found
+2024-05-07 13:08:16.513 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:08:16.513 - Object 'BIN$VC8v9cAsTRqG455NRhNpDg==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 13:08:16.513 - Object 'BIN$VRoV6hliTp6ne5sQNDlsoA==$0' owner 'BIN$K58lwYWkTOyo/xBqV4hSiQ==$0' not found
+2024-05-07 13:08:16.513 - Object 'BIN$akuVZuHORSy6EGyLxBHKrQ==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 13:08:16.514 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:08:16.514 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:08:16.514 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 13:08:16.514 - Object 'BIN$nL141yifTNapsUE86TVbGQ==$0' owner 'BIN$TtKoXWMnSwykPhV13XvI3w==$0' not found
+2024-05-07 13:08:16.514 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 13:08:16.514 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 13:08:16.514 - Object 'BIN$s5dkZI+VR3OvqhKFg+dI3w==$0' owner 'BIN$xQEq81gwTgGtSLTR8iIH1A==$0' not found
+2024-05-07 13:08:16.514 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:08:16.514 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:08:16.514 - Object 'BIN$zLm9zWe7Ss6quyzIbdH+ew==$0' owner 'BIN$PJDDEXmBSgizAFQA2eCXSw==$0' not found
+2024-05-07 13:12:38.347 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1] [23000]: ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007610)에 위배됩니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007610)에 위배됩니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+Caused by: Error : 1, Position : 0, Sql = INSERT INTO USER_FOREIGNKEY
+    (USER_NO, USER_ID , USER_PWD , USER_NAME , GENDER , PHONE , EMAIL , GRADE_CODE)
+    VALUES
+    (1, 'user01', 'pass01', '유재석', '남', '010-1234-5678', 'yu@naver.or.kr' ,10), OriginalSql = INSERT INTO USER_FOREIGNKEY
+    (USER_NO, USER_ID , USER_PWD , USER_NAME , GENDER , PHONE , EMAIL , GRADE_CODE)
+    VALUES
+    (1, 'user01', 'pass01', '유재석', '남', '010-1234-5678', 'yu@naver.or.kr' ,10), Error Msg = ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007610)에 위배됩니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 20 more
+2024-05-07 13:12:54.423 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2291] [23000]: ORA-02291: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 부모 키가 없습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-02291: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 부모 키가 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+Caused by: Error : 2291, Position : 0, Sql = INSERT INTO USER_FOREIGNKEY
+    (USER_NO, USER_ID , USER_PWD , USER_NAME , GENDER , PHONE , EMAIL , GRADE_CODE)
+    VALUES
+    (3, 'user03', 'pass01', '유재석', '남', '010-1234-5678', 'yu@naver.or.kr' ,50), OriginalSql = INSERT INTO USER_FOREIGNKEY
+    (USER_NO, USER_ID , USER_PWD , USER_NAME , GENDER , PHONE , EMAIL , GRADE_CODE)
+    VALUES
+    (3, 'user03', 'pass01', '유재석', '남', '010-1234-5678', 'yu@naver.or.kr' ,50), Error Msg = ORA-02291: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 부모 키가 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 20 more
+2024-05-07 13:13:57.724 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1] [23000]: ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007610)에 위배됩니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007610)에 위배됩니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+Caused by: Error : 1, Position : 0, Sql = INSERT INTO USER_FOREIGNKEY
+    (USER_NO, USER_ID , USER_PWD , USER_NAME , GENDER , PHONE , EMAIL , GRADE_CODE)
+    VALUES
+    (4, 'user04', 'pass01', '유재석', '남', '010-1234-5678', 'yu@naver.or.kr' ,30), OriginalSql = INSERT INTO USER_FOREIGNKEY
+    (USER_NO, USER_ID , USER_PWD , USER_NAME , GENDER , PHONE , EMAIL , GRADE_CODE)
+    VALUES
+    (4, 'user04', 'pass01', '유재석', '남', '010-1234-5678', 'yu@naver.or.kr' ,30), Error Msg = ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007610)에 위배됩니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 20 more
+2024-05-07 13:14:11.061 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1] [23000]: ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007610)에 위배됩니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007610)에 위배됩니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+Caused by: Error : 1, Position : 0, Sql = INSERT INTO USER_FOREIGNKEY
+    (USER_NO, USER_ID , USER_PWD , USER_NAME , GENDER , PHONE , EMAIL , GRADE_CODE)
+    VALUES
+    (4, 'user04', 'pass01', '유재석', '남', '010-1234-5678', 'yu@naver.or.kr' ,30), OriginalSql = INSERT INTO USER_FOREIGNKEY
+    (USER_NO, USER_ID , USER_PWD , USER_NAME , GENDER , PHONE , EMAIL , GRADE_CODE)
+    VALUES
+    (4, 'user04', 'pass01', '유재석', '남', '010-1234-5678', 'yu@naver.or.kr' ,30), Error Msg = ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007610)에 위배됩니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 20 more
+2024-05-07 13:18:34.415 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2292] [23000]: ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+Caused by: Error : 2292, Position : 0, Sql = DELETE
+FROM USER_GRADE 
+WHERE GRADE_CODE =10, OriginalSql = DELETE
+FROM USER_GRADE 
+WHERE GRADE_CODE =10, Error Msg = ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 20 more
+2024-05-07 13:18:51.219 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2292] [23000]: ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+Caused by: Error : 2292, Position : 0, Sql = DELETE
+FROM USER_GRADE 
+WHERE GRADE_CODE =10, OriginalSql = DELETE
+FROM USER_GRADE 
+WHERE GRADE_CODE =10, Error Msg = ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 20 more
+2024-05-07 13:19:34.048 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2292] [23000]: ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+Caused by: Error : 2292, Position : 0, Sql = DELETE
+FROM USER_GRADE 
+WHERE GRADE_CODE =10, OriginalSql = DELETE
+FROM USER_GRADE 
+WHERE GRADE_CODE =10, Error Msg = ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 20 more
+2024-05-07 13:19:54.162 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2292] [23000]: ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+Caused by: Error : 2292, Position : 0, Sql = DELETE
+FROM USER_GRADE 
+WHERE GRADE_CODE =10, OriginalSql = DELETE
+FROM USER_GRADE 
+WHERE GRADE_CODE =10, Error Msg = ORA-02292: 무결성 제약조건(SCOTT.FK_GRADE_CODE)이 위배되었습니다- 자식 레코드가 발견되었습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 20 more
+2024-05-07 13:21:58.962 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [900] [42000]: ORA-00900: SQL 문이 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00900: SQL 문이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 900, Position : 0, Sql = UC.TABLE_NAME
+    , UCC.COLUMN_NAME
+    , UC.CONSTRAINT_NAME
+    , UC.CONSTRAINT_TYPE
+FROM SYS.USER_CONSTRAINTS UC
+JOIN SYS.USER_CONS_COLUMNS UCC ON UC.CONSTRAINT_NAME = UCC.CONSTRAINT_NAME
+WHERE UCC.CONSTRAINT_NAME = 'FK_GRADE_CODE', OriginalSql = UC.TABLE_NAME
+    , UCC.COLUMN_NAME
+    , UC.CONSTRAINT_NAME
+    , UC.CONSTRAINT_TYPE
+FROM SYS.USER_CONSTRAINTS UC
+JOIN SYS.USER_CONS_COLUMNS UCC ON UC.CONSTRAINT_NAME = UCC.CONSTRAINT_NAME
+WHERE UCC.CONSTRAINT_NAME = 'FK_GRADE_CODE', Error Msg = ORA-00900: SQL 문이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 13:22:32.301 - Data type 'KOTTD' not found - declare new one
+2024-05-07 13:22:32.311 - Data type 'KOTTB' not found - declare new one
+2024-05-07 13:22:32.323 - Data type 'KOTAD' not found - declare new one
+2024-05-07 13:22:32.334 - Data type 'KOTMD' not found - declare new one
+2024-05-07 13:22:32.345 - Data type 'KOTTBX' not found - declare new one
+2024-05-07 13:22:32.356 - Data type 'KOTADX' not found - declare new one
+2024-05-07 13:22:32.620 - Data type 'SCHEDULER$_REMOTE_ARG' not found - declare new one
+2024-05-07 13:22:44.230 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:765)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:983)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1168)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 942, Position : 18, Sql = SELECT * FROM SYS.USER_CONSTRANITS, OriginalSql = SELECT * FROM SYS.USER_CONSTRANITS, Error Msg = ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 22 more
+2024-05-07 13:27:27.099 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2291] [23000]: ORA-02291: 무결성 제약조건(SCOTT.FK_GRADE_CODE2)이 위배되었습니다- 부모 키가 없습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-02291: 무결성 제약조건(SCOTT.FK_GRADE_CODE2)이 위배되었습니다- 부모 키가 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+Caused by: Error : 2291, Position : 0, Sql = INSERT INTO USER_FOREIGNKEY2
+    (USER_NO, USER_ID , USER_PWD , USER_NAME , GENDER , PHONE , EMAIL , GRADE_CODE)
+    VALUES
+    (3, 'user03', 'pass01', '유재석', '남', '010-1234-5678', 'yu@naver.or.kr' ,50), OriginalSql = INSERT INTO USER_FOREIGNKEY2
+    (USER_NO, USER_ID , USER_PWD , USER_NAME , GENDER , PHONE , EMAIL , GRADE_CODE)
+    VALUES
+    (3, 'user03', 'pass01', '유재석', '남', '010-1234-5678', 'yu@naver.or.kr' ,50), Error Msg = ORA-02291: 무결성 제약조건(SCOTT.FK_GRADE_CODE2)이 위배되었습니다- 부모 키가 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 20 more
+2024-05-07 13:38:48.856 - Error while analyzing query text: -- 서브쿼리를 이용한 테이블 생성(컬럼명 , 데이터 타입 , 값이 복사되고 , 제약조건은 NOT NULL 만 복사됨)
+
+CREATE TABLE 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:875)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:972)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:953)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:678)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 13:41:16.382 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 955, Position : 13, Sql = CREATE TABLE MEMBER4 
+AS SELECT * FROM MEMBER4, OriginalSql = CREATE TABLE MEMBER4 
+AS SELECT * FROM MEMBER4, Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 13:41:20.780 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 955, Position : 13, Sql = CREATE TABLE MEMBER4 
+AS SELECT * FROM MEMBER4, OriginalSql = CREATE TABLE MEMBER4 
+AS SELECT * FROM MEMBER4, Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 13:42:08.166 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 955, Position : 13, Sql = CREATE TABLE MEMBER4 
+AS SELECT * FROM MEMBER, OriginalSql = CREATE TABLE MEMBER4 
+AS SELECT * FROM MEMBER, Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 13:42:13.296 - Error : 2449, Position : 17, Sql = DROP TABLE SCOTT.MEMBER4, OriginalSql = DROP TABLE SCOTT.MEMBER4, Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+Error : 2449, Position : 17, Sql = DROP TABLE SCOTT.MEMBER4, OriginalSql = DROP TABLE SCOTT.MEMBER4, Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.executePersistAction(DBExecUtils.java:363)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractObjectManager.executePersistAction(AbstractObjectManager.java:40)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.executeCommands(AbstractCommandContext.java:198)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.saveChanges(AbstractCommandContext.java:125)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectBase$ObjectSaver.run(NavigatorHandlerObjectBase.java:296)
+	at org.jkiss.dbeaver.runtime.TasksJob.run(TasksJob.java:58)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 13:42:30.866 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 955, Position : 13, Sql = CREATE TABLE MEMBER5 
+AS SELECT * FROM MEMBER4, OriginalSql = CREATE TABLE MEMBER5 
+AS SELECT * FROM MEMBER4, Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 13:43:09.760 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 2449, Position : 11, Sql = DROP TABLE MEMBER4, OriginalSql = DROP TABLE MEMBER4, Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 13:43:26.151 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:43:26.151 - Object 'BIN$FBv5ioOhS5+WsxXXyMXokQ==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:43:26.151 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 13:43:26.151 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:43:26.151 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:43:26.151 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:43:26.151 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 13:43:26.151 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 13:43:26.151 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 13:43:26.151 - Object 'BIN$uzSVJ4BtRwSGSMfu6OV3ww==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:43:26.151 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:43:26.151 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:43:36.112 - Error while analyzing query text: CREATE TABLE 
+
+
+
+   
+
+
+
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:875)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:972)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:953)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:678)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 13:45:47.470 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:45:47.470 - Object 'BIN$FBv5ioOhS5+WsxXXyMXokQ==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:45:47.470 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 13:45:47.470 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:45:47.470 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:45:47.470 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:45:47.470 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 13:45:47.472 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 13:45:47.472 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 13:45:47.472 - Object 'BIN$uzSVJ4BtRwSGSMfu6OV3ww==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:45:47.472 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:45:47.472 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:45:53.192 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 2449, Position : 11, Sql = DROP TABLE MEMBER4, OriginalSql = DROP TABLE MEMBER4, Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 13:45:57.479 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 942, Position : 11, Sql = DROP TABLE MEMBER5, OriginalSql = DROP TABLE MEMBER5, Error Msg = ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 13:46:04.059 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 2449, Position : 11, Sql = DROP TABLE MEMBER4, OriginalSql = DROP TABLE MEMBER4, Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 13:46:44.026 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:46:44.026 - Object 'BIN$FBv5ioOhS5+WsxXXyMXokQ==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:46:44.026 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 13:46:44.026 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:46:44.026 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:46:44.026 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:46:44.026 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 13:46:44.026 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 13:46:44.026 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 13:46:44.026 - Object 'BIN$uzSVJ4BtRwSGSMfu6OV3ww==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:46:44.026 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:46:44.026 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:48:46.019 - Error while analyzing query text: --
+--ALTER : 객체를 수정하는 구문
+--ALTER TABLE 테이블명 수정내용;
+--컬럼추가/삭제/변경,제약조건 추가/삭제/변경
+--테이블명면경, 제약조건이름변경
+-----------------------------------------------  
+
+
+--컬럼추가
+
+--제약조건 추가 
+-- ALTER TABLE 테이블명 ADD PRIMARY KEY(컬럼명)
+-- ALTER TABLE 테이블명 ADD FOREIGN KEY(컬럼명) REFERENCES 테이블명 (컬럼명)
+-- ALTER TABLE 테이블명 ADD UNIQUE(컬럼명)
+-- ALTER TABLE 테이블명 ADD CHECK(컬럼명 비교연산자 비교값)
+-- ALTER TABLE 테이블명 MODIFY 컬럼명 NOT NULL
+
+
+ALTER TABLE 
+
+
+
+
+   
+
+
+
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:875)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:972)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:953)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:678)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 13:49:21.935 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:49:21.935 - Object 'BIN$FBv5ioOhS5+WsxXXyMXokQ==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:49:21.935 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 13:49:21.935 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:49:21.935 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:49:21.935 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:49:21.935 - Object 'BIN$hbyXmXFnSYu6gWCxMw9X4w==$0' owner 'BIN$YyEqhDOYSfqpC8mPvs0fgA==$0' not found
+2024-05-07 13:49:21.935 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 13:49:21.935 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 13:49:21.935 - Object 'BIN$uzSVJ4BtRwSGSMfu6OV3ww==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:49:21.935 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:49:21.935 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:49:28.742 - Error : 2449, Position : 17, Sql = DROP TABLE SCOTT.MEMBER4, OriginalSql = DROP TABLE SCOTT.MEMBER4, Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+Error : 2449, Position : 17, Sql = DROP TABLE SCOTT.MEMBER4, OriginalSql = DROP TABLE SCOTT.MEMBER4, Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.executePersistAction(DBExecUtils.java:363)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractObjectManager.executePersistAction(AbstractObjectManager.java:40)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.executeCommands(AbstractCommandContext.java:198)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.saveChanges(AbstractCommandContext.java:125)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectBase$ObjectSaver.run(NavigatorHandlerObjectBase.java:296)
+	at org.jkiss.dbeaver.runtime.TasksJob.run(TasksJob.java:58)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 13:51:14.510 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:765)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:983)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1168)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 942, Position : 14, Sql = SELECT * FROM MEMBER5 , OriginalSql = SELECT * FROM MEMBER5 , Error Msg = ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 22 more
+2024-05-07 13:52:38.709 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1] [23000]: ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007599)에 위배됩니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007599)에 위배됩니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+Caused by: Error : 1, Position : 0, Sql = INSERT INTO MEMBER4  values('100','100','PARK','123'), OriginalSql = INSERT INTO MEMBER4  values('100','100','PARK','123'), Error Msg = ORA-00001: 무결성 제약 조건(SCOTT.SYS_C007599)에 위배됩니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 20 more
+2024-05-07 13:53:08.551 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2449] [72000]: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 2449, Position : 11, Sql = DROP TABLE MEMBER4, OriginalSql = DROP TABLE MEMBER4, Error Msg = ORA-02449: 외래 키에 의해 참조되는 고유/기본 키가 테이블에 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 13:53:28.997 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:53:28.998 - Object 'BIN$FBv5ioOhS5+WsxXXyMXokQ==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:53:28.998 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 13:53:28.998 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:53:28.998 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:53:28.998 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:53:28.998 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 13:53:28.998 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 13:53:28.998 - Object 'BIN$uzSVJ4BtRwSGSMfu6OV3ww==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:53:28.998 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:53:28.998 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:54:20.436 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:54:20.436 - Object 'BIN$FBv5ioOhS5+WsxXXyMXokQ==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:54:20.436 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 13:54:20.436 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:54:20.436 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:54:20.436 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:54:20.436 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 13:54:20.436 - Object 'BIN$r3gaeMXjSh6AcYBqQKQSHA==$0' owner 'BIN$/8G/M3stT66uxUt+f8Da0A==$0' not found
+2024-05-07 13:54:20.436 - Object 'BIN$uzSVJ4BtRwSGSMfu6OV3ww==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:54:20.436 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:54:20.437 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:56:14.979 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [903] [42000]: ORA-00903: 테이블명이 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00903: 테이블명이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+Caused by: Error : 903, Position : 7, Sql = UPDATE TABLE MEMBER4 SET ID=10, OriginalSql = UPDATE TABLE MEMBER4 SET ID=10, Error Msg = ORA-00903: 테이블명이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 20 more
+2024-05-07 13:57:06.091 - Error while analyzing query text: CREATE TABLE 
+SELECT * FROM MEMBER4 WHERE 1=0
+java.lang.UnsupportedOperationException: identifier expected while facing with error
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:877)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:972)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:953)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:678)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 13:58:18.437 - Object 'BIN$/uPV+XuQSDCRSNQdTum83Q==$0' owner 'BIN$NXZhLB/UQk6hO3TMoVilXQ==$0' not found
+2024-05-07 13:58:18.437 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:58:18.437 - Object 'BIN$FBv5ioOhS5+WsxXXyMXokQ==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:58:18.437 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 13:58:18.437 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:58:18.437 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:58:18.437 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:58:18.437 - Object 'BIN$e/8gxYWzSVW7Ra2Og/BYaw==$0' owner 'BIN$NXZhLB/UQk6hO3TMoVilXQ==$0' not found
+2024-05-07 13:58:18.437 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 13:58:18.437 - Object 'BIN$uzSVJ4BtRwSGSMfu6OV3ww==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:58:18.437 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:58:18.437 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:59:22.544 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2260] [42000]: ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 2260, Position : 24, Sql = ALTER TABLE MEMBER5 ADD PRIMARY KEY(ID), OriginalSql = ALTER TABLE MEMBER5 ADD PRIMARY KEY(ID), Error Msg = ORA-02260: 테이블에는 하나의 기본 키만 가질 수 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 13:59:31.015 - Object 'BIN$/uPV+XuQSDCRSNQdTum83Q==$0' owner 'BIN$NXZhLB/UQk6hO3TMoVilXQ==$0' not found
+2024-05-07 13:59:31.015 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:59:31.015 - Object 'BIN$FBv5ioOhS5+WsxXXyMXokQ==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:59:31.015 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 13:59:31.015 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 13:59:31.015 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:59:31.015 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 13:59:31.015 - Object 'BIN$e/8gxYWzSVW7Ra2Og/BYaw==$0' owner 'BIN$NXZhLB/UQk6hO3TMoVilXQ==$0' not found
+2024-05-07 13:59:31.016 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 13:59:31.016 - Object 'BIN$uzSVJ4BtRwSGSMfu6OV3ww==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 13:59:31.016 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 13:59:31.016 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 14:03:43.567 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 955, Position : 13, Sql = CREATE TABLE TEST11(
+	ID VARCHAR2(100) PRIMARY KEY,
+	NAME VARCHAR2(100) UNIQUE
+), OriginalSql = CREATE TABLE TEST11(
+	ID VARCHAR2(100) PRIMARY KEY,
+	NAME VARCHAR2(100) UNIQUE
+), Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 14:04:23.206 - Object 'BIN$/uPV+XuQSDCRSNQdTum83Q==$0' owner 'BIN$NXZhLB/UQk6hO3TMoVilXQ==$0' not found
+2024-05-07 14:04:23.207 - Object 'BIN$EqyzgKTHQE6KK9Bkjh1hzg==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 14:04:23.207 - Object 'BIN$FBv5ioOhS5+WsxXXyMXokQ==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 14:04:23.207 - Object 'BIN$M5Fu7dhNQV6pWarNl0gnIg==$0' owner 'BIN$CZE0v/qNRbeMkCcptvjIIw==$0' not found
+2024-05-07 14:04:23.207 - Object 'BIN$QU7j3V7FTE2RU7FQiFP3fQ==$0' owner 'BIN$1X2mvv22QKit3mp+yJZeSw==$0' not found
+2024-05-07 14:04:23.207 - Object 'BIN$bla0JKoJT0qGLNGTes/e5Q==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 14:04:23.207 - Object 'BIN$cQrgZYOjRQerdK5AWVvskw==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 14:04:23.207 - Object 'BIN$e/8gxYWzSVW7Ra2Og/BYaw==$0' owner 'BIN$NXZhLB/UQk6hO3TMoVilXQ==$0' not found
+2024-05-07 14:04:23.207 - Object 'BIN$qjHz+47IT6akAu2DtgSeCA==$0' owner 'BIN$WGxGCby3QRuYQTh9Uqm8sA==$0' not found
+2024-05-07 14:04:23.207 - Object 'BIN$uzSVJ4BtRwSGSMfu6OV3ww==$0' owner 'BIN$awuUOowvSnG4A8j3RcaWKw==$0' not found
+2024-05-07 14:04:23.207 - Object 'BIN$xTte7MRtSCm08WScne2EYg==$0' owner 'BIN$nTk9IXtRSy64+J0dkvznqQ==$0' not found
+2024-05-07 14:04:23.207 - Object 'BIN$yocjqYlhT1Cj7tcHz4OzZQ==$0' owner 'BIN$pMcxRw3JQA6pzbvfTVA5uw==$0' not found
+2024-05-07 14:05:47.027 - Column 'ADDR' not found in table 'SCOTT.TEST22'
+2024-05-07 14:06:10.908 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1430] [72000]: ORA-01430: 추가하려는 열이 이미 테이블에 존재합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-01430: 추가하려는 열이 이미 테이블에 존재합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 1430, Position : 24, Sql = ALTER TABLE TEST22  ADD ADDR  VARCHAR2(100), OriginalSql = ALTER TABLE TEST22  ADD ADDR  VARCHAR2(100), Error Msg = ORA-01430: 추가하려는 열이 이미 테이블에 존재합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 14:07:31.951 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2437] [72000]: ORA-02437: (SCOTT.PK_TEST22_ID)을 검증할 수 없습니다 - 잘못된 기본 키입니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-02437: (SCOTT.PK_TEST22_ID)을 검증할 수 없습니다 - 잘못된 기본 키입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 2437, Position : 35, Sql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), OriginalSql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), Error Msg = ORA-02437: (SCOTT.PK_TEST22_ID)을 검증할 수 없습니다 - 잘못된 기본 키입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 14:07:58.803 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2437] [72000]: ORA-02437: (SCOTT.PK_TEST22_ID)을 검증할 수 없습니다 - 잘못된 기본 키입니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-02437: (SCOTT.PK_TEST22_ID)을 검증할 수 없습니다 - 잘못된 기본 키입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 2437, Position : 35, Sql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), OriginalSql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), Error Msg = ORA-02437: (SCOTT.PK_TEST22_ID)을 검증할 수 없습니다 - 잘못된 기본 키입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 14:08:14.430 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2299] [23000]: ORA-02299: 제약 (SCOTT.UN_TEST22_NAME)을 사용 가능하게 할 수 없음 - 중복 키가 있습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-02299: 제약 (SCOTT.UN_TEST22_NAME)을 사용 가능하게 할 수 없음 - 중복 키가 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 2299, Position : 35, Sql = ALTER TABLE TEST22
+ADD CONSTRAINT UN_TEST22_NAME  UNIQUE (NAME), OriginalSql = ALTER TABLE TEST22
+ADD CONSTRAINT UN_TEST22_NAME  UNIQUE (NAME), Error Msg = ORA-02299: 제약 (SCOTT.UN_TEST22_NAME)을 사용 가능하게 할 수 없음 - 중복 키가 있습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 14:09:52.014 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2443] [72000]: ORA-02443: 존재하지 않는 제약 - 삭제할 수 없습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-02443: 존재하지 않는 제약 - 삭제할 수 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 2443, Position : 36, Sql = ALTER TABLE TEST22
+DROP CONSTRAINT PK_TEST22_ID, OriginalSql = ALTER TABLE TEST22
+DROP CONSTRAINT PK_TEST22_ID, Error Msg = ORA-02443: 존재하지 않는 제약 - 삭제할 수 없습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 14:09:58.080 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2437] [72000]: ORA-02437: (SCOTT.PK_TEST22_ID)을 검증할 수 없습니다 - 잘못된 기본 키입니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-02437: (SCOTT.PK_TEST22_ID)을 검증할 수 없습니다 - 잘못된 기본 키입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 2437, Position : 35, Sql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), OriginalSql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), Error Msg = ORA-02437: (SCOTT.PK_TEST22_ID)을 검증할 수 없습니다 - 잘못된 기본 키입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 14:15:12.500 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [54] [61000]: ORA-00054: 리소스가 사용 중이어서 NOWAIT가 지정되었거나 시간 초과가 만료된 상태로 획득합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-00054: 리소스가 사용 중이어서 NOWAIT가 지정되었거나 시간 초과가 만료된 상태로 획득합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 54, Position : 12, Sql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), OriginalSql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), Error Msg = ORA-00054: 리소스가 사용 중이어서 NOWAIT가 지정되었거나 시간 초과가 만료된 상태로 획득합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 14:16:32.891 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [54] [61000]: ORA-00054: 리소스가 사용 중이어서 NOWAIT가 지정되었거나 시간 초과가 만료된 상태로 획득합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-00054: 리소스가 사용 중이어서 NOWAIT가 지정되었거나 시간 초과가 만료된 상태로 획득합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 54, Position : 12, Sql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), OriginalSql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), Error Msg = ORA-00054: 리소스가 사용 중이어서 NOWAIT가 지정되었거나 시간 초과가 만료된 상태로 획득합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 14:16:45.372 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [54] [61000]: ORA-00054: 리소스가 사용 중이어서 NOWAIT가 지정되었거나 시간 초과가 만료된 상태로 획득합니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-00054: 리소스가 사용 중이어서 NOWAIT가 지정되었거나 시간 초과가 만료된 상태로 획득합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+Caused by: Error : 54, Position : 12, Sql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), OriginalSql = ALTER TABLE TEST22
+ADD CONSTRAINT PK_TEST22_ID PRIMARY KEY (ID), Error Msg = ORA-00054: 리소스가 사용 중이어서 NOWAIT가 지정되었거나 시간 초과가 만료된 상태로 획득합니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 21 more
+2024-05-07 14:17:07.649 - Execution context closed (SCOTT, 2)
+2024-05-07 14:17:07.833 - DBeaver is stopping
+2024-05-07 14:17:07.833 - Stop instance server
+2024-05-07 14:17:08.841 - Instance server has been stopped
+2024-05-07 14:17:08.841 - DBeaver shutdown completed

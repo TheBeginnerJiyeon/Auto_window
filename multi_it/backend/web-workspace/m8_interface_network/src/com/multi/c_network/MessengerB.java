@@ -9,7 +9,7 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
-public class MessengerB extends JFrame{
+public class MessengerB extends JFrame {
 	
 	
 	DatagramSocket socket = null;
@@ -30,11 +30,11 @@ public class MessengerB extends JFrame{
 		Font font = new Font("궁서", Font.BOLD, 30);
 		list.setFont(font);
 		input.setFont(font);
-
+		
 		//배경색
 		list.setBackground(Color.pink);
 		input.setBackground(Color.yellow);
-
+		
 		//글자색
 		list.setForeground(Color.blue);
 		input.setForeground(Color.red);
@@ -78,7 +78,6 @@ public class MessengerB extends JFrame{
 		setVisible(true);
 		
 		
-		
 	}
 	
 	// 상대의 메세지를 받아서 textarea 에 작성해주기
@@ -99,15 +98,11 @@ public class MessengerB extends JFrame{
 	}
 	
 	
-	
 	public static void main(String[] args) throws Exception {
 		
 		MessengerB mb = new MessengerB();
 		
 		mb.process();
-		
-		
-	
 		
 		
 	}
