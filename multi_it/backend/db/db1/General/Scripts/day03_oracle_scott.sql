@@ -1,4 +1,5 @@
--- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- CONNECTION: url=jdbc:oracle:thin:@//localhost:1521/XE
+
 
 
 

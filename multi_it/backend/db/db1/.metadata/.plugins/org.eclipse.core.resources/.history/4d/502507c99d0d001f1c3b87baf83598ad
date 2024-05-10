@@ -1,0 +1,14 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 9:45:33
+
+-- 그룹함수와 단일행함수
+--함수(FUNCTION) : 컬럼값을 읽어서 계산한 결과를 리턴함 
+--단일행함수 : 컬럼에 기록된 N 개의 값을 읽어서 N 개의 결과를 리턴 
+--그룹함수 : 컬럼에 기록된 N 개의 값을 읽어서 한개의 결과를 리턴
+
+

@@ -24,7 +24,7 @@ public class DBConnectOracle {
 			// 드라이버타입@ip주소:포트번호:db이름(SID)
 			// orcl:사용자정의설치 , thin : 자동으로 설치 //ip주소 -> localhost 로 변경해도됨
 			// 클라우드 IP 주소로 찾아보기
-			String url = "jdbc:oracle:thin:222.99.55.135:1521:STR";
+			String url = "jdbc:oracle:thin:@//localhost:1521/XE";
 			String user = "scott";
 			String password = "tiger";
 			con = DriverManager.getConnection(url, user, password);

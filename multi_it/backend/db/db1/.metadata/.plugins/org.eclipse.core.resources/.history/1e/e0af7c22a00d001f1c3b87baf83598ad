@@ -1,0 +1,78 @@
+-- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+
+
+
+
+-- New script in SCOTT.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- workspace : C:\Users\dkswl\OneDrive\Documents\code_upload\Auto_window\multi_it\backend\db\db1
+-- Date: 2024. 5. 9.
+-- Time: 오전 9:45:33
+
+-- 그룹함수와 단일행함수
+--함수(FUNCTION) : 컬럼값을 읽어서 계산한 결과를 리턴함 
+--단일행함수 : 컬럼에 기록된 N 개의 값을 읽어서 N 개의 결과를 리턴 
+--그룹함수 : 컬럼에 기록된 N 개의 값을 읽어서 한개의 결과를 리턴
+
+
+-- 단일행 함수
+-- 문자관련함수 
+-- LENGTH, CONCAT , SUBSTR,UPPER, LOWER, INSTR....
+
+
+--CONCAT : 문자열 혹은 컬럼두개를 입력받아 하나로 합친후 리턴
+SELECT CONCAT(CONCAT(EMPNO, ':'), ENAME) AS CONCAT_RESULT FROM EMP;
+
+SELECT EMPNO || ':' || ENAME AS CONCAT_RESULT FROM EMP ;
+
+SELECT * FROM EMP;
+
+
+-- LENGTH : 길이 
+
+SELECT LENGTH(ENAME) FROM EMP;
+
+
+
+--TRIM : 주어진 컬럼이나 문자열의 앞/뒤에 지정한문자를 제거 
+
+--LTRIM/ RTRIM : 주어진 컬럼이나 문자열 왼쪽/오른쪽에서 지정한 
+--              문자 혹은 문자열을 제거한 나머지를 반환하는 함수 
+
+SELECT LENGTH(TRIM(ENAME)) FROM EMP;
+
+SELECT TRIM(BOTH 'A' FROM ENAME) FROM EMP; -- 양쪽끝에 A를 제거  
+
+SELECT TRIM(LEADING 'A' FROM ENAME) FROM EMP; -- 앞쪽에 A를 제거
+ 
+SELECT TRIM(TRAILING 'A' FROM ENAME) FROM EMP;  -- 뒷쪽에 A를 제거
+-- REPLACE : 컬럼혹은 문자열을 입력받아 변경하고자 하는 문자열을 변경
+
+SELECT REPLACE(ENAME, ' ', '') FROM EMP;
+
+SELECT 
+    REPLACE('서울시 강남구 역삼동 ', '역삼동', '삼성동') VAL
+FROM DUAL;
+
+
+
+
+
+--SUBSTR: 컬럼이나 문자열에서 지정한 위치로 부터 지정한 문자열을 잘라서 리턴하는 함수
+--SUBSTR('문자열', 시작위치, 자를길이)
+SELECT 
+       ENAME 사원명
+     , SUBSTR(TO_CHAR(HIREDATE,'YYMMDD') , 1, 2) --입사년도 2자리 yy
+     , SUBSTR(TO_CHAR(HIREDATE,'YYMMDD'), 3, 2) --월 mm
+     , SUBSTR(TO_CHAR(HIREDATE,'YYMMDD'), 5, 2) --일 dd
+  FROM EMP;
+
+
+
+
+
+
+
+
+

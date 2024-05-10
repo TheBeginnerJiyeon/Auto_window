@@ -12,8 +12,8 @@
 	<section name="DBeaver.DriverTabbedViewer">
 	</section>
 	<section name="DBeaver.ActiveWizardDialog.NewConnectionWizard">
-		<item key="DIALOG_X_ORIGIN" value="215"/>
-		<item key="DIALOG_Y_ORIGIN" value="174"/>
+		<item key="DIALOG_X_ORIGIN" value="562"/>
+		<item key="DIALOG_Y_ORIGIN" value="264"/>
 		<item key="DIALOG_WIDTH" value="940"/>
 		<item key="DIALOG_HEIGHT" value="624"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
@@ -22,7 +22,7 @@
 		<item key="showDetails" value="false"/>
 		<item key="DIALOG_X_ORIGIN" value="494"/>
 		<item key="DIALOG_Y_ORIGIN" value="411"/>
-		<item key="DIALOG_WIDTH" value="491"/>
+		<item key="DIALOG_WIDTH" value="608"/>
 		<item key="DIALOG_HEIGHT" value="194"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
@@ -72,6 +72,13 @@
 		<item key="DIALOG_Y_ORIGIN" value="138"/>
 		<item key="DIALOG_WIDTH" value="700"/>
 		<item key="DIALOG_HEIGHT" value="605"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="DBeaver.DriverManagerDialog">
+		<item key="DIALOG_X_ORIGIN" value="449"/>
+		<item key="DIALOG_Y_ORIGIN" value="245"/>
+		<item key="DIALOG_WIDTH" value="653"/>
+		<item key="DIALOG_HEIGHT" value="536"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

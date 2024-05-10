@@ -12,12 +12,12 @@
 		</driver>
 	</provider>
 	<provider id="oracle">
-		<driver id="oracle_thin" categories="sql" name="Oracle" class="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:@{host}[:{port}]/{database}" port="1521" defaultDatabase="STR" defaultUser="system" description="Oracle JDBC driver" custom="false">
+		<driver id="oracle_thin" categories="sql" name="Oracle" class="oracle.jdbc.driver.OracleDriver" url="jdbc:oracle:thin:@{host}[:{port}]/{database}" port="1521" defaultDatabase="XE" defaultUser="system" description="Oracle JDBC driver" custom="false">
 			<library type="jar" path="maven:/com.oracle.database.jdbc:ojdbc11:RELEASE" custom="false" disabled="true" version="23.2.0.0"/>
 			<library type="jar" path="maven:/com.oracle.database.nls:orai18n:RELEASE" custom="false" disabled="true" version="23.2.0.0"/>
 			<library type="jar" path="maven:/com.oracle.database.xml:xdb6:RELEASE" custom="false" disabled="true" version="18.3.0.0"/>
 			<library type="jar" path="maven:/com.oracle.database.xml:xmlparserv2:RELEASE" custom="false" disabled="true" version="23.2.0.0"/>
-			<library type="jar" path="C:\oracle\app\oracle\product\19.0.0.0\db_1\jdbc\lib\ojdbc8.jar" custom="true"/>
+			<library type="jar" path="${home}\Downloads\ojdbc6.jar" custom="true"/>
 		</driver>
 	</provider>
 	<provider id="sqlite">

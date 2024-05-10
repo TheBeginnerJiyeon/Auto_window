@@ -21,7 +21,7 @@ public class MemberUITest4 {
 		JOptionPane.showMessageDialog(null, memberDTO);
 		
 		
-		
+		dao.delete(id);
 		
 		
 		
