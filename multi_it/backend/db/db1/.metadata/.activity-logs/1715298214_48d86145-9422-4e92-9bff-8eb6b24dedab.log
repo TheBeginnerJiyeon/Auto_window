@@ -1,9 +1,0 @@
-1959:APP_OPEN:startTime=1715298209062
-3339:GENERAL_SHOW_PERSPECTIVE:perspective=org.jkiss.dbeaver.core.perspective
-3340:GENERAL_VIEW_OPEN:view=org.jkiss.dbeaver.core.databaseNavigator
-3340:GENERAL_VIEW_OPEN:view=org.jkiss.dbeaver.core.projectExplorer
-3346:GENERAL_SHOW_PERSPECTIVE:perspective=org.jkiss.dbeaver.core.perspective
-3347:GENERAL_VIEW_OPEN:view=org.jkiss.dbeaver.core.databaseNavigator
-3347:GENERAL_VIEW_OPEN:view=org.jkiss.dbeaver.core.projectExplorer
-5130:ENTITY_EDITOR_OPEN:driver=oracle:oracle_thin&className=OracleTable
-5337:DATA_EDIT_OPEN:objectType=OracleTable

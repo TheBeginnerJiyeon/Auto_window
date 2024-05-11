@@ -1,7 +1,7 @@
 package com.multi.jdbc.b_basic.view;
 
-import com.multi.jdbc.b_basic.model.dao.MemberDAO;
-import com.multi.jdbc.b_basic.model.dto.MemberDTO;
+import com.multi.jdbc.b_basic.model.dao.MemberDao;
+import com.multi.jdbc.b_basic.model.dto.MemberDto;
 
 import javax.swing.*;
 import java.awt.*;
@@ -17,6 +17,7 @@ public class MemberUI {
 	//public static void main(String[] args) {
 	public void open() {
 		JFrame f = new JFrame(); // f객체 생성
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.getContentPane().setBackground(Color.GREEN);
 		f.setSize(516, 595); //가로 500, 세로 600
 		f.getContentPane().setLayout(null);
@@ -81,21 +82,15 @@ public class MemberUI {
 		JButton btnNewButton = new JButton("회원가입");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-			
-				String id = t1.getText();
+				int id = Integer.parseInt(t1.getText());
 				String pw = t2.getText();
 				String name = t3.getText();
 				String tel = t4.getText();
-				
-				MemberDTO memberDto = new MemberDTO(Integer.parseInt(id), pw, name, tel);
-				MemberDAO memberDAO = new MemberDAO();
-				memberDAO.insert(memberDto);
-				
-				
-				
-				
-			
-			
+
+				MemberDto memberDto = new MemberDto(id, pw, name, tel);
+
+				MemberDao memberDao = new MemberDao();
+				memberDao.insert(memberDto);
 			}
 		});
 		btnNewButton.setFont(new Font("굴림", Font.BOLD, 23));
@@ -105,6 +100,14 @@ public class MemberUI {
 		f.getContentPane().add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("회원탈퇴");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				String id = JOptionPane.showInputDialog("검색할 id입력");
+				MemberDao memberDao = new MemberDao();
+				memberDao.delete(id);
+			}
+		});
 		btnNewButton_1.setFont(new Font("굴림", Font.BOLD, 23));
 		btnNewButton_1.setBackground(Color.ORANGE);
 		btnNewButton_1.setForeground(Color.RED);
@@ -114,25 +117,14 @@ public class MemberUI {
 		JButton btnNewButton_1_1 = new JButton("회원정보");
 		btnNewButton_1_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-			
 				String id = JOptionPane.showInputDialog("검색할 id입력");
-				
-				MemberDAO memberDAO = new MemberDAO();
-				
-				MemberDTO rsDto = memberDAO.selectOne(id);
-				
-				t1.setText(String.valueOf(rsDto.getId()));
+				MemberDao memberDao = new MemberDao();
+				MemberDto rsDto = memberDao.selectOne(id);
 
+				t1.setText(String.valueOf(rsDto.getId()));
 				t2.setText(rsDto.getPw());
-				
 				t3.setText(rsDto.getName());
-				
 				t4.setText(rsDto.getTel());
-				
-				// delete??
-			
-			
-			
 			}
 		});
 		btnNewButton_1_1.setForeground(Color.RED);
@@ -140,6 +132,7 @@ public class MemberUI {
 		btnNewButton_1_1.setBackground(Color.ORANGE);
 		btnNewButton_1_1.setBounds(339, 436, 148, 94);
 		f.getContentPane().add(btnNewButton_1_1);
+
 		f.setVisible(true); 
 	}
 }
