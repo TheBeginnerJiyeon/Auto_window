@@ -1,6 +1,6 @@
-package com.multi.gameProject.users.controller;
+package com.multi.gameProject.generalUsers.controller;
 
-import com.multi.gameProject.users.view.UserView;
+import com.multi.gameProject.generalUsers.view.UserJycontent;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 public class UserController {
 	
 	// 유저 뷰 받음
-	private UserView userView;
+	private UserJycontent userView;
 	
 	// 유저 뷰의 버튼, 텍스트 필드 받음
 	private static JTextField idField1;
@@ -49,7 +49,7 @@ public class UserController {
 	public void userController() {
 		
 		// userView 생성
-		userView = new UserView();
+		userView = new UserJycontent();
 		userView.viewFrame();
 		
 		

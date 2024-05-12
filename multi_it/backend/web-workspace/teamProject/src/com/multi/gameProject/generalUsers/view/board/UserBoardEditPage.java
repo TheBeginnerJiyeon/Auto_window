@@ -1,4 +1,4 @@
-package com.multi.page_swing;
+package com.multi.gameProject.generalUsers.view.board;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,7 +6,7 @@ import java.awt.*;
 // 참고로 메뉴 클릭하면 해당 페이지를 setVisible(true)로 나머지는 setVisible(false)로 바꾸면 마치 페이지 이동처럼 창 전환이 된다고 합니다.
 // JTABLE
 
-public class FirstPage {
+public class UserBoardEditPage {
     private JFrame f;
     private Font font1 = new Font("굴림", Font.BOLD, 50);
     private Font font2 = new Font("굴림", Font.BOLD, 20);
@@ -14,7 +14,7 @@ public class FirstPage {
     private JPanel midP;
     private JPanel footerP;
 
-    public FirstPage() {
+    public UserBoardEditPage() {
         f = new JFrame();
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(600, 800);

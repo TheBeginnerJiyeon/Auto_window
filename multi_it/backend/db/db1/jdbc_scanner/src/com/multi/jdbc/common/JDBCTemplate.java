@@ -29,7 +29,7 @@ public class JDBCTemplate {
 
 	
 	// DB 연결을 위해 공용커넥션 객체를 반환해주는 메소드
-	public static Connection getConnection() {
+	public static Connection getConnection(){
 
 		if (conn == null) {
 			try {

@@ -1,10 +1,10 @@
-package com.multi.gameProject.users.view;
+package com.multi.gameProject.generalUsers.view;
 
 import javax.swing.*;
 import java.awt.*;
 
-// gui 예쁘게 수정 필요!!!
-public class UserView {
+// gui 예쁘게 수정 필요!!! 안지연꺼
+public class UserJycontent {
 	
 	private static JFrame f;
 	
