@@ -1,7 +1,7 @@
 package com.multi.gameProject.generalUsers.view.generalUser;
 
-import com.multi.gameProject.generalUsers.controller.UserController;
-import com.multi.gameProject.generalUsers.model.userDTO.UserDto;
+import com.multi.gameProject.generalUsers.controller.GeneralUserController;
+import com.multi.gameProject.generalUsers.model.generalUserDTO.GeneralUserDto;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 // 참고로 메뉴 클릭하면 해당 페이지를 setVisible(true)로 나머지는 setVisible(false)로 바꾸면 마치 페이지 이동처럼 창 전환이 된다고 합니다.
 // JTABLE
 
-public class UserBeforeLoginPage {
+public class GeneralUserBeforeLoginPage {
 	private JFrame f;
 	private Font font1 = new Font("굴림", Font.BOLD, 50);
 	private Font font2 = new Font("굴림", Font.BOLD, 20);
@@ -37,9 +37,9 @@ public class UserBeforeLoginPage {
 	private JPanel footerP;
 	
 	// 뷰를 처리하는 컨트롤러 생성
-	private UserController controller = new UserController();
+	private GeneralUserController controller = new GeneralUserController();
 	
-	public UserBeforeLoginPage() {
+	public GeneralUserBeforeLoginPage() {
 		f = new JFrame();
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setSize(600, 800);
@@ -320,7 +320,7 @@ public class UserBeforeLoginPage {
 				String userId= loginIdField.getText();
 				String userPw = loginPwField.getText();
 				
-				UserDto loginDto = controller.userLogin(userId, userPw);
+				GeneralUserDto loginDto = controller.userLogin(userId, userPw);
 				
 				
 				// 로그인 디티오가 널이 아니라서 로그인이 문제 없으면 현재 창 닫고 로그인이 되어있는 화면으로 이동함
@@ -330,7 +330,7 @@ public class UserBeforeLoginPage {
 					System.out.println(loginDto);
 					JOptionPane.showMessageDialog(null, loginDto);
 					
-					UserAfterLoginHomePage home = new UserAfterLoginHomePage(loginDto);
+					GeneralUserAfterLoginHomePage home = new GeneralUserAfterLoginHomePage(loginDto);
 		
 					f.dispose();
 					

@@ -9,9 +9,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Properties;
-
-import static com.multi.gameProject.common.JDBCTemplate.*;
-
+// java.sql.SQLRecoverableException: 접속 종료
 // 사용자 : scott / tiger , 테이블 :  USERS
 public class UserDao {
 	
@@ -22,7 +20,7 @@ public class UserDao {
 		
 		prop = new Properties();
 		try {
-			prop.load(new FileReader("resources/generalUser/generalUsersQuery.properties"));
+			prop.load(new FileReader("resources/generalUser/generlUsersQuery.properties"));
 		} catch (IOException e) {
 			System.out.println("userDao() 생성 에러 발생!!");
 			throw new RuntimeException(e);
@@ -41,20 +39,16 @@ public class UserDao {
 		
 		try {
 			
-			getConnection();
-			
-			setCommitFalse(conn, false);
-			
 			String sql = prop.getProperty("insertUser");
 			
 			ps = conn.prepareStatement(sql);
 			
 			ps.setString(1, newUser.getUser_Id());
 			ps.setString(2, newUser.getPw());
-			ps.setString(4, newUser.getName());
-			ps.setInt(5, newUser.getAge());
-			ps.setString(6, newUser.getTel());
-			ps.setString(7, newUser.getEmail());
+			ps.setString(3, newUser.getName());
+			ps.setInt(4, newUser.getAge());
+			ps.setString(5, newUser.getTel());
+			ps.setString(6, newUser.getEmail());
 
 			
 			result = ps.executeUpdate();
@@ -63,12 +57,12 @@ public class UserDao {
 			
 			if (result > 0) {
 				System.out.println("데이터 입력 완료");
-				commit(conn);
+				conn.commit();
 				System.out.println("커밋 완료");
 				
 			} else {
 				System.out.println("데이터 입력 실패,,,");
-				rollback(conn);
+				conn.rollback();
 			}
 			
 		} catch (SQLException e) {
@@ -77,8 +71,13 @@ public class UserDao {
 			
 		} finally {
 			
-			close(ps);
-			close(conn);
+			try {
+				ps.close();
+				conn.close();
+			} catch (SQLException e) {
+				throw new RuntimeException(e);
+			}
+			
 			
 		}
 		return result; // result ==0 이면 중복 아이디 존재!!
@@ -95,11 +94,6 @@ public class UserDao {
 		
 		
 		try {
-			
-			getConnection();
-			
-			setCommitFalse(conn, false);
-			
 			String sql = prop.getProperty("deleteUser");
 			
 			ps = conn.prepareStatement(sql);
@@ -113,12 +107,12 @@ public class UserDao {
 			
 			if (result > 0) {
 				System.out.println("데이터 삭제 완료");
-				commit(conn);
+				conn.commit();
 				System.out.println("커밋 완료");
 				
 			} else {
 				System.out.println("데이터 삭제 실패,,,");
-				rollback(conn);
+				conn.rollback();
 			}
 			
 		} catch (SQLException e) {
@@ -126,9 +120,13 @@ public class UserDao {
 			e.printStackTrace();
 			
 		} finally {
+			try {
+				ps.close();
+				conn.close();
+			} catch (SQLException e) {
+				throw new RuntimeException(e);
+			}
 			
-			close(ps);
-			close(conn);
 			
 		}
 		return result; // result ==0 이면 아이디 존재 안함 또는 비밀번호 불일치!!
@@ -190,11 +188,6 @@ public class UserDao {
 		UserDto userDto = null;
 		
 		try {
-			
-			getConnection();
-			
-			setCommitFalse(conn, false);
-			
 			String sql = prop.getProperty("selectUser");
 			
 			ps = conn.prepareStatement(sql);
@@ -226,9 +219,14 @@ public class UserDao {
 			e.printStackTrace();
 			
 		} finally {
+			try {
+				rset.close();
+				ps.close();
+				conn.close();
+			} catch (SQLException e) {
+				throw new RuntimeException(e);
+			}
 			
-			close(ps);
-			close(conn);
 			
 		}
 		return userDto; // 본인의 정보를 전달
@@ -237,7 +235,7 @@ public class UserDao {
 	
 	
 	//  로그인
-	public UserDto UserLogIn(Connection conn, String user_Id, String pw) {
+	public UserDto userLogin(Connection conn, String user_Id, String pw) {
 		
 		PreparedStatement ps = null;
 		ResultSet rset = null;
@@ -245,11 +243,7 @@ public class UserDao {
 		
 		
 		try {
-			
-			getConnection();
-			
-			setCommitFalse(conn, false);
-			
+
 			String sql = prop.getProperty("UserLogin");
 			
 			ps = conn.prepareStatement(sql);
@@ -262,6 +256,7 @@ public class UserDao {
 			System.out.println("sql문 전송 성공!! : " + rset);
 			
 			if (rset.next()) {
+				userDto = new UserDto();
 				userDto.setUser_Id(rset.getString("user_id"));
 				userDto.setPw(rset.getString("pw"));
 				userDto.setCoin_Count(rset.getInt("coin_count"));
@@ -281,9 +276,14 @@ public class UserDao {
 			e.printStackTrace();
 			
 		} finally {
+			try {
+				rset.close();
+				ps.close();
+				conn.close();
+			} catch (SQLException e) {
+				throw new RuntimeException(e);
+			}
 			
-			close(ps);
-			close(conn);
 			
 		}
 		return userDto; // 앞으로 나의 정보 관리를 위해 계속 사용될 로그인의 반환값인 디티오
@@ -304,11 +304,6 @@ public class UserDao {
 		
 		
 		try {
-			
-			getConnection();
-			
-			setCommitFalse(conn, false);
-			
 			String sql = prop.getProperty("updateUser");
 			
 			ps = conn.prepareStatement(sql);
@@ -316,13 +311,11 @@ public class UserDao {
 			// 받은 입력값을 ps에 담아보냄
 			ps.setString(1, updatedUser.getUser_Id());
 			ps.setString(2, updatedUser.getPw());
-			ps.setInt(3, updatedUser.getCoin_Count());
-			ps.setString(4, updatedUser.getName());
-			ps.setInt(5, updatedUser.getAge());
-			ps.setString(6, updatedUser.getTel());
-			ps.setString(7, updatedUser.getEmail());
-			ps.setString(8, String.valueOf(updatedUser.getDel_Acc()));
-			ps.setString(9, String.valueOf(updatedUser.getDelete_Acc_Date()));
+			ps.setString(3, updatedUser.getName());
+			ps.setInt(4, updatedUser.getAge());
+			ps.setString(5, updatedUser.getTel());
+			ps.setString(6, updatedUser.getEmail());
+
 			
 			result = ps.executeUpdate();
 			
@@ -330,12 +323,12 @@ public class UserDao {
 			
 			if (result > 0) {
 				System.out.println("데이터 수정 완료");
-				commit(conn);
+				conn.commit();
 				System.out.println("커밋 완료");
 				
 			} else {
 				System.out.println("데이터 수정 실패,,,");
-				rollback(conn);
+				conn.rollback();
 			}
 			
 		} catch (SQLException e) {
@@ -344,8 +337,13 @@ public class UserDao {
 			
 		} finally {
 			
-			close(ps);
-			close(conn);
+			try {
+				ps.close();
+				conn.close();
+			} catch (SQLException e) {
+				throw new RuntimeException(e);
+			}
+			
 			
 		}
 		return result;

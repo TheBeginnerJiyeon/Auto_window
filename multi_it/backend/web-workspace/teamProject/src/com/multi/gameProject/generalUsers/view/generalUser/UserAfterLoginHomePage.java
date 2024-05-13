@@ -1,5 +1,8 @@
 package com.multi.gameProject.generalUsers.view.generalUser;
 
+import com.multi.gameProject.generalUsers.controller.UserController;
+import com.multi.gameProject.generalUsers.model.userDTO.UserDto;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -9,6 +12,12 @@ import java.awt.event.ActionListener;
 // JTABLE
 
 public class UserAfterLoginHomePage {
+	
+	private UserController controller = new UserController();
+	
+	// 생성자를 통해 로그인 정보를 받아서 초기화 할 것임
+	private UserDto loginDto;
+	
 	private JFrame f;
 	private Font font1 = new Font("굴림", Font.BOLD, 50);
 	private Font font2 = new Font("굴림", Font.BOLD, 20);
@@ -30,24 +39,29 @@ public class UserAfterLoginHomePage {
 	private JButton writeBtn = new JButton("글쓰기");
 	private JButton selectByIdBtn = new JButton("아이디로 조회");
 	private JButton edit2Btn = new JButton("글 수정");
-	private JButton homeBtn= new JButton("홈으로");
+	private JButton homeBtn = new JButton("홈으로");
 	
 	
 	private JPanel headerP;
-	private JPanel midMyInfoP = new JPanel();	
-	private JPanel midHomeP = new JPanel();	
+	private JPanel midMyInfoP = new JPanel();
+	private JPanel midHomeP = new JPanel();
 	private JPanel footerP;
 	
-	public UserAfterLoginHomePage() {
+	// 유저가 로그인 성공한 후의 화면
+	public UserAfterLoginHomePage(UserDto loginDto) {
+		
+		// 로그인 전 화면에서 받은 로그인디티오를 로그인 후 클래스에서 사용하기위해 저장함
+		this.loginDto = loginDto;
+		
 		f = new JFrame();
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setSize(600, 800);
 		f.setTitle("코마에 사칙연산 게임");
 		
 		initHeaderP();
-		initMidMyInfo();		
+		initMidMyInfo();
 		initHome();
-	
+		
 		initFooterP();
 		
 		f.add(headerP, BorderLayout.PAGE_START);
@@ -98,8 +112,11 @@ public class UserAfterLoginHomePage {
 				System.out.println(1);
 				
 				midMyInfoP.setVisible(true);
-			
 				midHomeP.setVisible(false);
+				
+				logoutBtn.setVisible(true);
+				gameBtn.setVisible(false);
+				homeBtn.setVisible(true);
 				
 				
 				f.setVisible(true);
@@ -135,40 +152,53 @@ public class UserAfterLoginHomePage {
 		
 		f.add(midMyInfoP, BorderLayout.CENTER);
 		
-		logoutBtn.setVisible(true);
-		gameBtn.setVisible(false);
-		homeBtn.setVisible(true);
-		
 		
 		midMyInfoP.setBackground(new Color(40, 60, 79));
 		midMyInfoP.setBorder(BorderFactory.createEmptyBorder(50, 10, 0, 10)); // 여백(=padding)
-		midMyInfoP.setLayout(new GridLayout(8, 2, 10, 10));
+		midMyInfoP.setLayout(new GridLayout(9, 2, 10, 10));
 		
 		JLabel idLabel = new JLabel("ID");
 		JTextField idField = new JTextField();
+		idField.setText(loginDto.getUser_Id());
 		
 		JLabel pwLabel = new JLabel("PW");
 		JTextField pwField = new JTextField();
+		pwField.setText(loginDto.getPw());
+		
+		JLabel coin_CountLabel = new JLabel("COIN_COUNT");
+		JTextField coin_CountField = new JTextField();
+		coin_CountField.setText(String.valueOf(loginDto.getCoin_Count()));
+		coin_CountField.setFocusable(false);
+		coin_CountField.setEnabled(false);
 		
 		JLabel nameLabel = new JLabel("Name");
 		JTextField nameField = new JTextField();
+		nameField.setText(loginDto.getName());
 		
 		JLabel ageLabel = new JLabel("Age");
 		JTextField ageField = new JTextField();
+		ageField.setText(String.valueOf(loginDto.getAge()));
 		
 		JLabel telLabel = new JLabel("Tel");
 		JTextField telField = new JTextField();
+		telField.setText(loginDto.getTel());
 		
 		JLabel emailLabel = new JLabel("Email");
 		JTextField emailField = new JTextField();
+		emailField.setText(loginDto.getEmail());
 		
 		JLabel signUpLabel = new JLabel("가입일");
 		JTextField signUpField = new JTextField();
+		signUpField.setText(String.valueOf(loginDto.getSingup_Date()));
+		signUpField.setFocusable(false);
+		signUpField.setEnabled(false);
 		
 		idLabel.setFont(font2);
 		idLabel.setOpaque(true);
 		pwLabel.setFont(font2);
 		pwLabel.setOpaque(true);
+		coin_CountLabel.setFont(font2);
+		coin_CountLabel.setOpaque(true);
 		nameLabel.setFont(font2);
 		nameLabel.setOpaque(true);
 		ageLabel.setFont(font2);
@@ -185,6 +215,8 @@ public class UserAfterLoginHomePage {
 		midMyInfoP.add(idField);
 		midMyInfoP.add(pwLabel);
 		midMyInfoP.add(pwField);
+		midMyInfoP.add(coin_CountLabel);
+		midMyInfoP.add(coin_CountField);
 		midMyInfoP.add(nameLabel);
 		midMyInfoP.add(nameField);
 		midMyInfoP.add(ageLabel);
@@ -202,6 +234,30 @@ public class UserAfterLoginHomePage {
 		editBtn.setBackground(new Color(63, 228, 192));
 		midMyInfoP.add(editBtn);
 		
+		// 내정보에서 수정버튼 누르기
+		editBtn.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				
+				// 텍스트 필드의 값을 받아 컨트롤러의 함수의 인자로 전달함
+				String user_Id= idField.getText();
+				String Pw = pwField.getText();
+				String name = nameField.getText();
+				int age = Integer.parseInt(ageField.getText());
+				String tel = telField.getText();
+				String email = emailField.getText();
+				
+				controller.updateUser(user_Id, Pw, name, age, tel, email);
+				
+				// 회원가입에 문제 없으면 콘솔에 문제없다고 표시된다
+				
+				
+				
+				JOptionPane.showMessageDialog(null, "회원 정보를 수정했습니다!");
+			}
+		});
+		
+		
 		//
 		deleteBtn.setBorderPainted(false);
 		deleteBtn.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10)); // 여백(=padding)
@@ -209,13 +265,21 @@ public class UserAfterLoginHomePage {
 		deleteBtn.setBackground(new Color(63, 228, 192));
 		midMyInfoP.add(deleteBtn);
 		
-		
-		
+		deleteBtn.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				boolean answer = (JOptionPane.showConfirmDialog(null, "게시판을 삭제하시겠습니까?") == JOptionPane.YES_OPTION);
+				
+				if (answer == true) {
+					JOptionPane.showMessageDialog(null, "회원을 탈퇴했습니다!!!");
+					
+				}
+				
+			}
+		});
 		
 		
 	}
-	
-	
 	
 	
 	private void initFooterP() {
@@ -229,6 +293,24 @@ public class UserAfterLoginHomePage {
 		logoutBtn.setBackground(new Color(63, 228, 192));
 		footerP.add(logoutBtn);
 		
+		
+		logoutBtn.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				boolean answer = (JOptionPane.showConfirmDialog(null, "로그아웃 하시겠습니까?") == JOptionPane.YES_OPTION);
+				if (answer == true) {
+					
+					// 로그아웃시 로그인되어있던 정보를 없애기 위해 널로 지정함
+					loginDto = null;
+					UserBeforeLoginPage login = new UserBeforeLoginPage();
+					f.dispose();
+				}
+				
+				
+			}
+		});
+		
+		
 		gameBtn.setBorderPainted(false);
 		gameBtn.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10)); // 여백(=padding)
 		gameBtn.setFont(font2);
@@ -236,11 +318,40 @@ public class UserAfterLoginHomePage {
 		footerP.add(gameBtn);
 		
 		
+		gameBtn.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "게임 시작!!");
+			}
+		});
+		
+		
 		homeBtn.setBorderPainted(false);
 		homeBtn.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10)); // 여백(=padding)
 		homeBtn.setFont(font2);
 		homeBtn.setBackground(new Color(63, 228, 192));
 		footerP.add(homeBtn);
+		
+		homeBtn.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				
+				f.remove(midMyInfoP);
+				f.add(midHomeP);
+				
+				midMyInfoP.setVisible(false);
+				midHomeP.setVisible(true);
+				
+				logoutBtn.setVisible(true);
+				gameBtn.setVisible(true);
+				homeBtn.setVisible(false);
+				
+				
+				f.setVisible(true);
+				
+				
+			}
+		});
 		
 		
 	}
