@@ -1,4 +1,10 @@
 -- CONNECTION: url=jdbc:oracle:thin:@//localhost:1521/XE
+
+
+
+
+
+
 -- New script in SCOTT.
 -- Connection Type: dev 
 -- Url: jdbc:oracle:thin:@//localhost:1521/XE
@@ -219,7 +225,7 @@ SELECT
     , JOB
     ,SUM(SAL)
 FROM EMP
-GROUP BY CUBE(DEPTNO, JOB)
+GROUP BY CUBE("DEPTNO", "JOB")
 ORDER BY 1;
 
 
@@ -517,7 +523,7 @@ FROM  PRODUCT A, COMPANY B;
 SELECT *
 FROM PRODUCT A
 LEFT JOIN COMPANY B ON A.COMPANY = B.ID
-ORDER BY 1;
+ORDER BY 1;-- 첫번째 칼럼의 오름차순
 
 
 

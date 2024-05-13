@@ -8,15 +8,10 @@
 -- Time: 오후 1:41:38
 
 
-create user student identified by student;
-
-grant connect, resource, dba to student;
-
-
-
 -- 1. 직원의 이름과 이메일, 이메일 길이를 출력하시오
 --		  직원명	    이메일		이메일길이
 --	ex) 	홍길동 , hong  	  13
+
 
 
 
@@ -65,63 +60,109 @@ grant connect, resource, dba to student;
 
 -------------------------------
 
-[BoardUI 등록 버튼 이벤트 작성]
+<btnNewButton 버튼 이벤트>
 
 JButton btnNewButton = new JButton("등록");
-        btnNewButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent arg0) {
-                String title = t2.getText();
-                String content = t3.getText();
-                int writer = Integer.parseInt(t4.getText());
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				int no = Integer.parseInt(t1.getText());
+				String title = t2.getText();
+				String content = t3.getText();
+				int writer = Integer.parseInt(t4.getText());
+				
+				
+				BoardDto boardDto = new BoardDto();
+				
+				boardDto.setNo(no);
+				boardDto.setTitle(title);
+				boardDto.setContent(content);
+				boardDto.setWriter(writer);
+				
+				BoardDao boardDao = new BoardDao();
+				int result = boardDao.insert(boardDto);
+				
+				if (result > 0) {
+					JOptionPane.showMessageDialog(null, "게시글 등록 완료");
+					
+				} else {
+					JOptionPane.showMessageDialog(null, "에러발생!!");
+				}
+				
+			}
+		});
 
-                BoardDto boardDto = new BoardDto(title, content, writer);
-                BoardDao boardDao = new BoardDao();
-                boardDao.insert(boardDto);
-            }
-        });
 
 -----------------------------------
 
-[BoardDao 등록 메소드 작성]
+< BoardDao INSERT 메서드>
 
- public void insert(BoardDto boardDto) {
-        Connection con = null;
-        PreparedStatement ps = null;
+public int insert(BoardDto boardDto) {
+		
+		System.out.println("BoardDao : insert boardDto : " + boardDto);
+		
+		int result = 0;
+		
+		Connection con = null;
+		PreparedStatement ps = null;
+		
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			System.out.println("1. 드라이버 설정 성공..");
+			
+			String url = "jdbc:oracle:thin:@localhost:1521:xe";
+			String user = "scott";
+			String password = "tiger";
+			con = DriverManager.getConnection(url, user, password);
+			System.out.println("2. db연결 성공." + con);
+			
+			// 오토커밋을 false로 설정
+			con.setAutoCommit(false);
+			System.out.println("3. 오토 커밋 설정 비활성화.");
+			
+			// sql문 만들기, prepareStatement 준비된 문장
+			String sql = "INSERT INTO BBS VALUES(?,?,?,?)";
+			ps = con.prepareStatement(sql);
+			
+			// ? 에 입력할 순서대로 매핑시키기
+			// 가져온 DTO 분해
+			
+			ps.setInt(1, boardDto.getNo());
+			ps.setString(2, boardDto.getTitle());
+			ps.setString(3, boardDto.getContent());
+			ps.setInt(4, boardDto.getWriter());
+			
+			result = ps.executeUpdate();    // ps. 객체 실행, 쿼리 실행, 쿼리 실행 후 반환값 받아주기
+			
+			con.commit();
+			
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+			
+			if (con != null) {
+				try {
+					con.rollback(); // 예외 발생 시 롤백
+				} catch (SQLException ex) {
+					ex.printStackTrace();
+				}
+				System.out.println("트랜잭션 롤백.");
+			}
+			
+		} finally {
+			try {
+				ps.close(); // 먼저닫기
+				con.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+				e.printStackTrace();
+			}
+		}
+		
+		return result;
+		
+		
+	}
 
-        try {
-            Class.forName("oracle.jdbc.driver.OracleDriver");
-            String url = "jdbc:oracle:thin:@localhost:1521:xe";
-            String user = "scott";
-            String password = "tiger";
-            con = DriverManager.getConnection(url, user, password);
-            con.setAutoCommit(false);
-            String sql = "insert into BBS values (BBS_ID_SEQ.NEXTVAL, ?, ?, ?)";
-            ps = con.prepareStatement(sql);
-            ps.setString(1, boardDto.getTitle());
-            ps.setString(2, boardDto.getContent());
-            ps.setInt(3, boardDto.getWriter());
-            int result = ps.executeUpdate();
-            if (result >= 1) {
-                con.commit();
-            }
-            else {
-                con.rollback();
-            }
-        } catch (ClassNotFoundException | SQLException e) {
-            e.printStackTrace();
-            if (con != null) {
-                try {
-                    con.rollback(); // 예외 발생 시 롤백
-                } catch (SQLException ex) {
-                    ex.printStackTrace();
-                }
-            }
-        } finally {
-            try {
-                ps.close(); // 먼저닫기
-                con.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-    }
+
+
+ 
