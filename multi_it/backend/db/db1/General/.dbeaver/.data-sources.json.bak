@@ -103,6 +103,27 @@
 				},
 				"auth-model": "oracle_native"
 			}
+		},
+		"oracle_thin-18f70432bbb-a6441439d0a1672": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"configurationType": "MANUAL",
+				"home": "C:\\oracle\\dbhomeXE",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
 		}
 	},
 	"virtual-models": {"oracle_thin-18f5d9d0db8-1d803d45a8e93add":{"SCOTT":{"@properties":{"erd.diagram.state":{"serialized":"<diagram version=\"1\" name=\"empty\" time=\"202405111633\"><entities><data-source id=\"oracle_thin-18f5d9d0db8-1d803d45a8e93add\"><entity id=\"1\" name=\"BOARD\" fq-name=\"SCOTT.BOARD\" order=\"0\" font=\"Segoe UI:9:0\" x=\"568\" y=\"402\"><path name=\"SCOTT\"/></entity><entity id=\"2\" name=\"ITEMS\" fq-name=\"SCOTT.ITEMS\" order=\"1\" font=\"Segoe UI:9:0\" x=\"285\" y=\"118\"><path name=\"SCOTT\"/></entity><entity id=\"3\" name=\"ITEM_INVT\" fq-name=\"SCOTT.ITEM_INVT\" order=\"2\" font=\"Segoe UI:9:0\" x=\"481\" y=\"107\"><path name=\"SCOTT\"/></entity><entity id=\"4\" name=\"LEVELS\" fq-name=\"SCOTT.LEVELS\" order=\"3\" font=\"Segoe UI:9:0\" x=\"296\" y=\"285\"><path name=\"SCOTT\"/></entity><entity id=\"5\" name=\"RECORD\" fq-name=\"SCOTT.&quot;RECORD&quot;\" order=\"4\" font=\"Segoe UI:9:0\" x=\"482\" y=\"256\"><path name=\"SCOTT\"/></entity><entity id=\"6\" name=\"USERS\" fq-name=\"SCOTT.USERS\" order=\"5\" font=\"Segoe UI:9:0\" x=\"708\" y=\"111\"><path name=\"SCOTT\"/></entity></data-source></entities><relations><relation name=\"FK_ITEM_NO\" fq-name=\"SCOTT.ITEM_INVT.FK_ITEM_NO\" type=\"fk\" pk-ref=\"2\" fk-ref=\"3\"/><relation name=\"SYS_C007069\" fq-name=\"SCOTT.&quot;RECORD&quot;.SYS_C007069\" type=\"fk\" pk-ref=\"4\" fk-ref=\"5\"/><relation name=\"SYS_C007064\" fq-name=\"SCOTT.BOARD.SYS_C007064\" type=\"fk\" pk-ref=\"6\" fk-ref=\"1\"/><relation name=\"FK_USER_ID\" fq-name=\"SCOTT.ITEM_INVT.FK_USER_ID\" type=\"fk\" pk-ref=\"6\" fk-ref=\"3\"/><relation name=\"SYS_C007068\" fq-name=\"SCOTT.&quot;RECORD&quot;.SYS_C007068\" type=\"fk\" pk-ref=\"6\" fk-ref=\"5\"/></relations></diagram>"}}}}},
@@ -111,7 +132,7 @@
 			"name": "Development",
 			"color": "255,255,255",
 			"description": "Regular development database",
-			"auto-commit": false,
+			"auto-commit": true,
 			"confirm-execute": false,
 			"confirm-data-change": false,
 			"smart-commit": false,

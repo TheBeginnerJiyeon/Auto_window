@@ -1,4 +1,5 @@
--- CONNECTION: url=jdbc:mysql://localhost:3306/
+-- CONNECTION: url=jdbc:oracle:thin:@//localhost:1521/XE
+
 
 -- New script in SCOTT.
 -- Connection Type: dev 
@@ -18,6 +19,7 @@
 --==> 관계성: 회원이 물건을 사다.!(저장할 필요)
 --                 관계성 "테이블"로 만들게 된다.!!
 
+DROP TABLE BBS;
 
 CREATE TABLE BBS
 (	

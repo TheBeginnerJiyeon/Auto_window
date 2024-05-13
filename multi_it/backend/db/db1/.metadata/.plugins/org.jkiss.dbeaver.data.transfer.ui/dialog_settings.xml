@@ -19,7 +19,7 @@
 			<item key="mappings" value="[]"/>
 		</section>
 		<section name="DatabaseTransferConsumer">
-			<item key="entityId" value="oracle_thin-18f3db9c996-14d3d81bc8b1d691/SCOTT"/>
+			<item key="entityId" value="oracle_thin-18f5d9d0db8-1d803d45a8e93add/SCOTT"/>
 			<item key="openNewConnections" value="true"/>
 			<item key="useTransactions" value="true"/>
 			<item key="commitAfterRows" value="10000"/>
@@ -35,32 +35,24 @@
 			<item key="truncateBeforeLoad" value="false"/>
 			<item key="openTableOnFinish" value="true"/>
 			<section name="mappings">
-				<section name="product3.csv/product3.csv">
-					<item key="targetName" value="PRODUCT"/>
+				<section name="bbs33.csv/bbs33.csv">
+					<item key="targetName" value="BBS3"/>
 					<item key="mappingType" value="existing"/>
 					<section name="attributes">
-						<section name="ID">
-							<item key="targetName" value="ID"/>
+						<section name="no">
+							<item key="targetName" value="no"/>
 							<item key="mappingType" value="existing"/>
 						</section>
-						<section name="NAME">
-							<item key="targetName" value="NAME"/>
+						<section name="TITLE">
+							<item key="targetName" value="TITLE"/>
 							<item key="mappingType" value="existing"/>
 						</section>
 						<section name="CONTENT">
 							<item key="targetName" value="CONTENT"/>
 							<item key="mappingType" value="existing"/>
 						</section>
-						<section name="PRICE">
-							<item key="targetName" value="PRICE"/>
-							<item key="mappingType" value="existing"/>
-						</section>
-						<section name="COMPANY">
-							<item key="targetName" value="COMPANY"/>
-							<item key="mappingType" value="existing"/>
-						</section>
-						<section name="IMG">
-							<item key="targetName" value="IMG"/>
+						<section name="WRITER">
+							<item key="targetName" value="WRITER"/>
 							<item key="mappingType" value="existing"/>
 						</section>
 					</section>

@@ -1,4 +1,6 @@
--- CONNECTION: url=jdbc:oracle:thin:@//DESKTOP-MD0C8U4:1521/STR
+-- CONNECTION: url=jdbc:oracle:thin:@//localhost:1521/XE
+
+
 
 -- New script in HR.
 -- Connection Type: dev 
@@ -9,3 +11,7 @@
 
 
 SELECT * FROM EMP;
+
+-- hr 권한 주기
+
+grant all privileges to hr identified by hr;
