@@ -2,6 +2,8 @@
 
 
 
+
+
 -- localhost                - target database host
 -- localhost         - tunnel host name
 -- 1521                - target database port
@@ -142,6 +144,44 @@ INSERT INTO ITEM_INVT VALUES('ID',1,2);
 COMMIT;
 
 DROP TABLE COIN_INVT;
+
+
+
+
+CREATE OR REPLACE TRIGGER TRG_USERID
+AFTER UPDATE ON USERS FOR EACH ROW
+BEGIN
+	UPDATE ITEM_INVT SET USER_ID=:NEW.USER_ID WHERE USER_ID=:OLD.USER_ID;
+	UPDATE RECORD SET USER_ID=:NEW.USER_ID WHERE USER_ID=:OLD.USER_ID;
+	UPDATE BOARD SET USER_ID=:NEW.USER_ID WHERE USER_ID=:OLD.USER_ID;
+END;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -125,7 +125,7 @@
 				"auth-model": "oracle_native"
 			}
 		},
-		"oracle_thin-18f71551f0a-1e1f9d64708d8fa3": {
+		"oracle_thin-18f75430f35-b9ae912f334027d": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
 			"name": "HR",
